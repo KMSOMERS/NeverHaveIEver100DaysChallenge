@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="animation_generators">
+        <item>com.github.glomadrian.grav.generator.animation.ShakeAnimator</item>
+        <item>com.github.glomadrian.grav.generator.animation.SideToSideAnimator</item>
+    </string-array>
+
+    <string-array name="material_colours">
+        <item>#9575CD</item>
+        <item>#64B5F6</item>
+        <item>#AED581</item>
+        <item>#FFD54F</item>
+        <item>#F06292</item>
+    </string-array>
+
+    <string-array name="category_sex_and_relationshps">
+        <item>had a boyfriend</item>
+        <item>had a girlfriend</item>
+        <item>had sex</item>
+        <item>had a threesome</item>
+        <item>tried more than five sex positions</item>
+        <item>had sex in a sauna</item>
+        <item>had sex with my socks on</item>
+        <item>wanted to sleep with a friends parent</item>
+        <item>played voyeur</item>
+        <item>tried more than three sex positions in one session</item>
+        <item>had sex in my parents bed</item>
+        <item>met a porn actor or actress</item>
+        <item>slept with a porn actor or actress</item>
+        <item>received or given a foot job</item>
+        <item>had sex with someone watching</item>
+        <item>had sex in nature</item>
+        <item>taken someones virginity</item>
+        <item>masturbated using a fruit</item>
+        <item>used fruit when performing a sexual act</item>
+        <item>asked a friend to check me for a STD</item>
+        <item>complimented someones genitals</item>
+        <item>told someone they had tidy genitals</item>
+        <item>cut myself while shaving my pubes</item>
+        <item>looked at myself while having sex</item>
+        <item>looked at myself while masturbating</item>
+        <item>traded sex for favours</item>
+        <item>urinated on another person</item>
+        <item>refused to go down on someone due to hair</item>
+        <item>refused to go down on someone due to smell</item>
+        <item>fingered a women</item>
+        <item>fingered a man</item>
+        <item>fingered a partner in a public place</item>
+        <item>masturbated while on the phone to someone</item>
+        <item>had sex while on the phone to someone</item>
+        <item>had sex before the age of 20</item>
+        <item>had sex before the age of 19</item>
+        <item>had sex before the age of 18</item>
+        <item>had sex before the age of 17</item>
+        <item>had sex before the age of 16</item>
+        <item>had sex before the age of 25</item>
+	<item>had sex after the age of 75</item>   
+        <item>showered with someone of the opposite sex</item>
+        <item>showered with someone of the same sex</item>
+        <item>had sex on a car</item>
+        <item>had sex on a train</item>
+        <item>asked my partner to be more assertive during sex</item>
+        <item>licked someones ear</item>
+        <item>bitten someones ear</item>
+        <item>received a noise complaint due to sex</item>
+        <item>tried a position because I saw it in porn</item>
+        <item>been a booty-call</item>
+        <item>received a booty-call</item>
+        <item>tried to booty-call</item>
+        <item>had sexual wishes I wouldn\'t discuss with my partner</item>
+        <item>cried during sex</item>
+        <item>cried after sex</item>
+        <item>had a pregnancy scare</item>
+        <item>taken a pregnancy test</item>
+        <item>bought a pregnancy test</item>
+        <item>tried fisting</item>
+        <item>had sex that lasted under a minute</item>
+        <item>had sex that lasted under five minutes</item>
+        <item>had sex that lasted over five minutes</item>
+        <item>had sex that lasted over ten minutes</item>
+        <item>had sex that lasted over an hour</item>
+        <item>had fantasies about a friend</item>
+        <item>had fantasies about a friend while having sex with my partner</item>
+        <item>had fantasies about someone else while having sex with my partner</item>
+        <item>had sex at a wedding</item>
+        <item>been skinny dipping</item>
+        <item>had sex with someone to make someone jealous</item>
+        <item>had flirted with someone to make someone jealous</item>
+        <item>been shocked by a sex story</item>
+        <item>taken a shower with a friend</item>
+        <item>lied to my friends about having sex</item>
+        <item>watched porn</item>
+        <item>dreamed about some friends having sex</item>
+        <item>used lube</item>
+        <item>eaten during sex</item>
+        <item>eaten food off of someone\'s naked body</item>
+        <item>had food eaten off my naked body</item>
+        <item>done a body shot</item>
+        <item>hidden messages from my partner</item>
+        <item>hidden sexual messages from my partner</item>
+        <item>lied about having sex</item>
+        <item>lied about the number of people I have slept with</item>
+        <item>used bondage</item>
+        <item>had sex while standing up</item>
+        <item>tried to use music to set the mood</item>
+        <item>had to shave to get rid of crabs</item>
+        <item>had sex in a position other than missionary</item>
+        <item>watched porn with someone else</item>
+        <item>had sex in public</item>
+        <item>been caught having sex in public</item>
+        <item>been dominant while having sex</item>
+        <item>been dominated while having sex</item>
+        <item>used a sex toy on myself</item>
+        <item>used a sex toy on someone else</item>
+        <item>fallen asleep while having sex</item>
+        <item>drank so much that I fell asleep while having sex</item>
+        <item>spoken about sex with my parents</item>
+        <item>held the head of my partner while they go down on me</item>
+        <item>given or received a blowjob</item>
+        <item>fantasised about sex with someone providing me a service</item>
+        <item>slept with a coworker</item>
+        <item>slept with a classmate</item>
+        <item>slept with a stranger</item>
+        <item>masturbated at my grandparent\'s house</item>
+        <item>masturbated at a friends house</item>
+        <item>masturbated at a partners house</item>
+        <item>masturbated in public</item>
+        <item>masturbated on a plane</item>
+        <item>masturbated on a bus</item>
+        <item>had a finger in my bum</item>
+        <item>put a finger in someones bum</item>
+        <item>received double penetration</item>
+        <item>been a part of double penetration</item>
+        <item>given anal sex</item>
+        <item>received anal sex</item>
+        <item>used edible underwear</item>
+        <item>had to find an excuse for a cum stain</item>
+        <item>dated a stripper</item>
+        <item>had sex with a stripper</item>
+        <item>paid for lap dance</item>
+        <item>paid a stripper</item>
+        <item>watched someone masturbate</item>
+        <item>looked on Google for sex advice</item>
+        <item>looked on Google for relationship advice</item>
+        <item>looked on Google for how to break up with someone</item>
+        <item>looked on Google for how to break up a friend</item>
+        <item>licked someones foot</item>
+        <item>had someone lick my foot</item>
+        <item>injured myself because of sex</item>
+        <item>injured myself while masturbating</item>
+        <item>had to visit the hospital due to a sexual injury</item>
+        <item>spoken dirty to my partner</item>
+        <item>flirted with someone</item>
+        <item>had ache and pains due to sex</item>
+        <item>faked an orgasm</item>
+        <item>fooled around in a sibling\'s room</item>
+        <item>worn a partners underwear</item>
+        <item>worn the underwear of the opposite sex</item>
+        <item>received nudes</item>
+        <item>sent nudes</item>
+        <item>taken nudes</item>
+        <item>masturbated in the bath</item>
+        <item>visited a party just to hookup</item>
+        <item>had sex with someone that I didn\'t know the name of</item>
+        <item>spanked someone older than me</item>
+        <item>slept with someone older than me</item>
+        <item>slept with someone younger than me</item>
+        <item>slept with someone so that they would buy me things</item>
+        <item>had sex on my period</item>
+        <item>had sex with someone on their period</item>
+        <item>hidden porn</item>
+        <item>bought porn</item>
+        <item>had sex in the doggy-style position</item>
+        <item>had sex with someone I didn\'t find attractive</item>
+        <item>had sex with someone out of pity</item>
+        <item>taken viagra</item>
+        <item>used handcuffs during sex</item>
+        <item>been tied up during sex</item>
+        <item>paid for sex</item>
+        <item>gotten sperm in my eye</item>
+        <item>gotten sperm in someones eye</item>
+        <item>gotten sperm in my hair</item>
+        <item>gotten sperm in someones hair</item>
+        <item>watched the porn channel in a hotel</item>
+        <item>had sex on a first date</item>
+        <item>kissed on a first date</item>
+        <item>lied about my virginity</item>
+        <item>slept with someone with brown hair</item>
+        <item>slept with someone with blonde hair</item>
+        <item>slept with someone with red hair</item>
+        <item>slept with someone with grey hair</item>
+        <item>had sex in a library</item>
+        <item>had someone strip for me</item>
+        <item>stripped for someone</item>
+        <item>had kinky sex</item>
+        <item>had rough sex</item>
+        <item>exposed myself because someone asked</item>
+        <item>exposed myself because of a dare</item>
+        <item>kissed someone because of a dare</item>
+        <item>slept with someone because of a dare</item>
+        <item>finished myself off after sex because I wasn\'t satisfied</item>
+        <item>used someone else\'s sex toy</item>
+        <item>tried the wheelbarrow sex position</item>
+        <item>slept with someone taller than myself</item>
+        <item>slept with someone shorter than myself</item>
+        <item>slept with someone who had also slept with a friend</item>
+        <item>been in a 69 sex position</item>
+        <item>paid attention to the plot of a porn movie</item>
+        <item>opened the door while baked</item>
+        <item>been watched by an animal during sex</item>
+        <item>had sex on a kitchen counter</item>
+        <item>had sex on a sofa</item>
+        <item>broken a condom during sex</item>
+        <item>had sex without protection</item>
+        <item>had sex without a condom</item>
+        <item>put my penis in a vacuum cleaner</item>
+        <item>had a vaginal orgasm</item>
+        <item>had a an orgasm</item>
+        <item>had sex with a fat person</item>
+        <item>lost something in one of my holes</item>
+        <item>played strip uno</item>
+        <item>played strip poker</item>
+        <item>had sex with an ex after a brake up</item>
+        <item>been sexually aroused looking at myself</item>
+        <item>slept with someone for revenge</item>
+        <item>posted nudes of someone else online</item>
+        <item>posted nudes of a partner online</item>
+        <item>posted nudes of an ex online</item>
+        <item>tried cybersex</item>
+        <item>taken picture of a partner sleeping</item>
+        <item>taken picture of a partner after sex</item>
+        <item>had sex with a friend of a parent</item>
+        <item>bought lube</item>
+        <item>asked someone to shower before having sex</item>
+        <item>had sex in a friends bed without telling them</item>
+        <item>had sex in a friends house</item>
+        <item>been approached by a prostitute</item>
+        <item>walked in on my parents during sex</item>
+        <item>been walked in on while having sex</item>
+        <item>been interrupted while having sex</item>
+        <item>slept with my boss to get a promotion</item>
+        <item>rejected someone who wanted to have sex with me</item>
+        <item>measured the length of my penis</item>
+        <item>measured the length of my partners penis</item>
+        <item>used a common household item as a dildo</item>
+        <item>had sex with someone twenty years older</item>
+        <item>given a rainbow kiss</item>
+        <item>slept with someone due to the number of social media followers they have</item>
+        <item>given my genitals a nickname</item>
+        <item>had my parents ask if I am a virgin</item>
+        <item>considered being a stripper</item>
+        <item>used a glory hole</item>
+        <item>seen my parents naked</item>
+        <item>bought a sex toy</item>
+        <item>bought someone else a sex toy</item>
+        <item>had sex with more than three people in a week</item>
+        <item>had sex with more than three people in a single night</item>
+        <item>had sex with more than ten people in the last year</item>
+        <item>groped my partner in a public place</item>
+        <item>groped my partner in a public swimming pool</item>
+        <item>had sex in a hot tub</item>
+        <item>had sex on the ground next to or in front of a bed</item>
+        <item>made a sex tape</item>
+        <item>heard someone else having sex</item>
+        <item>used my teeth during sex</item>
+        <item>stolen a condom from a friend</item>
+        <item>woken up next to a stranger</item>
+        <item>had my partner get stuck in me</item>
+        <item>struggled to find the g-spot</item>
+        <item>heard my name during sex</item>
+        <item>screamed during sex</item>
+        <item>slept with someone I found ugly</item>
+        <item>fantasied about a three-some</item>
+        <item>laughed when seeing someones genitals</item>
+        <item>limped after sex</item>
+        <item>hit someone with my penis</item>
+        <item>been hit by someone else\'s penis</item>
+        <item>had sex with a friends ex</item>
+        <item>shaved all my pubic hair</item>
+        <item>searched for someones nude pictures online</item>
+        <item>been told what to do during sex</item>
+        <item>been told im bad at sex</item>
+        <item>intentionally had loud sex so someone could hear</item>
+        <item>given or received a hand-job</item>
+        <item>masturbated at work</item>
+        <item>had scratch or bite marks after sex</item>
+        <item>given scratch or bite marks during sex</item>
+        <item>had sex without having an orgasm</item>
+        <item>been caught having sex in a car</item>
+        <item>tried using penis enlargement pills</item>
+        <item>been asked to be in a threesome</item>
+        <item>fantasied about having sex with a teacher</item>
+        <item>had a partner with a sex piercing</item>
+        <item>given money for a one-night stand</item>
+        <item>looked at my phone during sex</item>
+        <item>masturbated more than once in the same day</item>
+        <item>had sex in another country</item>
+        <item>had sex in another continent</item>
+        <item>agreed to a sexual position of act without knowing what it is</item>
+        <item>been into a sex shop</item>
+        <item>changed my mind about having sex with someone after seeing them naked</item>
+        <item>given oral to someone I just met</item>
+        <item>had sex multiple times in one night</item>
+        <item>lied about the appearance of my genitals</item>
+        <item>lied about my sexual performance</item>
+        <item>had sex with someone in drag</item>
+        <item>role-played during sex</item>
+        <item>watched porn with a family member</item>
+        <item>been swinging</item>
+        <item>been dogging</item>
+        <item>swallowed cum</item>
+        <item>tasted cum</item>
+        <item>tried bondage</item>
+        <item>had rough sex</item>
+        <item>gone home with someone because I couldn\'t find anyone better</item>
+        <item>tried to cuddle with a one-night stand but got rejected</item>
+        <item>been blindfolded during sex</item>
+        <item>blindfolded my partner during sex</item>
+        <item>kicked someone out after having sex</item>
+        <item>been kicked out after having sex</item>
+        <item>used a mirror to look at my genitals</item>
+        <item>used a flavoured condom</item>
+        <item>had a quickie</item>
+        <item>finished in the same condom more than once</item>
+        <item>masturbated while lying next to my sleeping partner</item>
+        <item>wanted to have sex with someone playing this game right now</item>
+        <item>had more than 10 sexual partners</item>
+        <item>had sex with someone in this room</item>
+	      <item>been asked to do streaptease for money after an office party you don't recall anything from</item>    
+        <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
+        <item>dated someone older than me</item>
+        <item>dated someone ten years older than me</item>
+        <item>dated someone younger than me</item>
+        <item>advised someone to leave their partner</item>
+        <item>been dumped</item>
+        <item>flirted with someone just to turn them on</item>
+        <item>stalked an ex online</item>
+        <item>been on a blind date</item>
+        <item>not known what to respond with when hearing I love you</item>
+        <item>gotten married</item>
+        <item>thought about marrying my partner</item>
+        <item>hit on someone I know is married</item>
+        <item>had two partners at the same time</item>
+        <item>kissed someone without knowing their name</item>
+        <item>kissed someone and immediately regretted it</item>
+        <item>fallen in love with someone without meeting them</item>
+        <item>given or received a hickey</item>
+        <item>been on a tinder date</item>
+        <item>said I love you without meaning it</item>
+        <item>cried in front of an ex</item>
+        <item>cheated on a partner</item>
+        <item>flirted with someone in an online game</item>
+        <item>been unhappy with my body</item>
+        <item>been unhappy with my partners body</item>
+        <item>been dissatisfied in a relationship</item>
+        <item>flirted with a friends partner</item>
+        <item>had a crush on a friends partner</item>
+        <item>been in an open relationship</item>
+        <item>insulted an ex after a break up</item>
+        <item>spoken badly of an ex</item>
+        <item>told someone that I loved them</item>
+        <item>fantasised about a friends partner</item>
+        <item>had my heart broken</item>
+        <item>used a dating app or website</item>
+        <item>had a relationship with two people from the same family</item>
+        <item>been on a double date</item>
+        <item>lied to my partner</item>
+        <item>used a pick-up line</item>
+        <item>been called a tease</item>
+        <item>looked through my partners messages</item>
+        <item>looked through my partners pictures</item>
+        <item>tried to steal someones partner</item>
+        <item>had a crush</item>
+        <item>been with someone just because they were attractive</item>
+        <item>kissed more than three people in one night</item>
+        <item>been in love with a best friend</item>
+        <item>been in a relationship because its better than being alone</item>
+        <item>spoken to someone just because they were attractive</item>
+        <item>been told I love you</item>
+        <item>pretended to like something just because my crush did</item>
+        <item>broken up with someone by text</item>
+        <item>broken up with someone over the phone</item>
+        <item>broken up with someone in public</item>
+        <item>rejected someone because they were too hairy</item>
+        <item>brought a date to family function</item>
+        <item>received a love letter</item>
+        <item>given a love letter</item>
+        <item>said bad things about my partner behind their back</item>
+        <item>had two dates in the same day</item>
+        <item>denied a relationship</item>
+        <item>been called just a friend</item>
+        <item>tried things for my partner that I pledged I would never do</item>
+        <item>had a crush on my babysitter</item>
+        <item>asked for someones phone number</item>
+        <item>given someone my phone number</item>
+        <item>had a partner I was afraid of introducing to my parents</item>
+        <item>dated the same person twice</item>
+        <item>taken someone to the cinema for a first date</item>
+        <item>left a friend at a party to have sex</item>
+        <item>asked my ex to stay friends</item>
+        <item>been the other guy or girl</item>
+        <item>slept with a celebrity</item>
+        <item>been denied a kiss on a first date</item>
+        <item>been denied a kiss</item>
+        <item>sent nudes</item>
+        <item>received nudes</item>
+        <item>flirted with a person to win a bet</item>
+        <item>fantasized about my friend's significant other</item>
+        <item>slept with my boss to get ahead, or with a teacher to get a good grade</item>
+    </string-array>
+
+    <string-array name="category_drinking">
+        <item>passed out from drinking</item>
+        <item>passed out on a toilet</item>
+        <item>chugged a beer in less than 10 seconds</item>
+        <item>chugged a beer in less than 10 seconds and then puked</item>
+        <item>cried on a night out</item>
+        <item>drank beer</item>
+        <item>asked someone to buy me alcohol when underage</item>
+        <item>gone home to the wrong house while drunk</item>
+        <item>pretended to be drunk</item>
+        <item>drank alcohol on public transport</item>
+        <item>drank any kind of spirit</item>
+        <item>asked someone to buy me a drink</item>
+        <item>gone home with someone because they bought me alcohol</item>
+        <item>been drunk before lunchtime</item>
+        <item>tried to enter the wrong house when drunk</item>
+        <item>gone to work with a hangover</item>
+        <item>gone to school with a hangover</item>
+        <item>had a hangover</item>
+        <item>been drunk in a foreign country</item>
+        <item>been too drunk to remember a night out</item>
+        <item>been drunk on less than three drinks</item>
+        <item>had a hangover so bad I wanted death</item>
+        <item>been sick in a taxi</item>
+        <item>given alcohol to someone underage</item>
+        <item>blamed alcohol for something I said</item>
+        <item>blamed alcohol for something I did</item>
+        <item>had a month without alcohol since I started drinking</item>
+        <item>been too drunk to remember where I live</item>
+        <item>been too drunk to remember where I was</item>
+        <item>gotten kicked out of a club</item>
+        <item>been to a club sober</item>
+        <item>drank a 70cl bottle of vodka in one night</item>
+        <item>drank alcohol at work</item>
+        <item>drank alcohol at school</item>
+        <item>spent over £100 on a night out</item>
+        <item>done a body shot or had someone do a body shot off of me</item>
+        <item>been drawn on or drawn on someone passed out</item>
+        <item>drank over ten beers in the same night</item>
+        <item>had drunken sex</item>
+        <item>drank so much I couldn\'t get it up (whiskey dick)</item>
+        <item>gotten drunk while underage</item>
+        <item>been asked to leave a party</item>
+        <item>sent a drunk text/message</item>
+        <item>drank so much I had to get carried home</item>
+        <item>bought someone a drink</item>
+        <item>drank alcohol out of a dog bowl</item>
+        <item>drank alcohol off of a plate</item>
+        <item>been arrested while drunk</item>
+        <item>made a cocktail</item>
+        <item>gotten lost while drunk</item>
+        <item>opened a bottle with my teeth</item>
+        <item>opened a bottle with my boobs</item>
+        <item>opened a bottle with another bottle</item>
+        <item>had a hangover so bad I couldn\'t leave bed all day</item>
+        <item>woken up to sick after drinking</item>
+        <item>gotten drunk with my parents</item>
+        <item>been scared to check my phone after a night out</item>
+        <item>drank on my own</item>
+        <item>been to a bar on my own</item>
+        <item>gone out to a club on my own</item>
+        <item>been embarrassed about what a friend told me happened on a night out</item>
+        <item>drank alcohol to gain confidence</item>
+        <item>driven under the influence</item>
+        <item>slept outside while drunk</item>
+        <item>sang karaoke while drunk</item>
+        <item>drank water during a game of Never Have I Ever</item>
+        <item>thrown up on the floor because I couldn\'t find the bathroom</item>
+        <item>been unable to drink an type of alcohol after a bad night</item>
+        <item>stolen someone\'s drink</item>
+        <item>drank alcohol to calm my nerves</item>
+        <item>fell off a bed when drunk</item>
+        <item>fell off a sofa when drunk</item>
+        <item>tried to get someone drunk</item>
+        <item>gone home with someone just because I was drunk</item>
+        <item>flirted with someone so they would get me a drink</item>
+        <item>sneaked alcohol into a cinema</item>
+        <item>fallen over due to drinking</item>
+        <item>drank alcohol during breakfast</item>
+        <item>woken up drunk</item>
+        <item>thrown up on someone while drunk</item>
+        <item>regretted drinking</item>
+        <item>had to drink a dirty pint</item>
+        <item>played beer pong</item>
+        <item>drunk called someone</item>
+        <item>put alcohol in my cereal</item>
+        <item>minesweeped (drank the half empty drinks around the room)</item>
+        <item>used alcohol to lower my own or someone else\'s inhibitions</item>
+        <item>taken a sick day from work/school due to drinking</item>
+        <item>lost something while drunk</item>
+        <item>drank underage</item>
+        <item>been so drunk I peed in my bed</item>
+        <item>stolen alcohol from my parents</item>
+        <item>drank tequila</item>
+        <item>had to ask someone in the morning where I was</item>
+        <item>been put to bed by my friends</item>
+        <item>given away a secret while drunk</item>
+        <item>played a drinking game</item>
+        <item>been sick from drinking</item>
+	<item>drank so much that I fell asleep while having sex</item>
+    	<item>drinking on an empty stomach</item>
+	<item>Drink alone</item>
+	<item>Talked to anyone drunk</item>
+	<item>drink whiskey like water</item>
+    </string-array>
+
+    <string-array name="category_work_and_school">
+        <item>lied on my cv</item>
+        <item>shouted at a customer</item>
+	      <item>Cursed a teacher</item>
+        <item>had my boss shout at me</item>
+        <item>lied to a customer</item>
+        <item>tried to start a company</item>
+        <item>flirted with someone I work with</item>
+        <item>slept with someone from work</item>
+        <item>worked in sales</item>
+        <item>worked in IT</item>
+        <item>worked past midnight</item>
+        <item>lied about my hours at work</item>
+        <item>worked in a fast food place</item>
+        <item>fallen asleep at work or school</item>
+        <item>asked for a raise</item>
+        <item>been fired</item>
+        <item>been suspended</item>
+        <item>pretended to be sick to go home</item>
+        <item>insulted my teacher or boss</item>
+        <item>been late to work or shcool</item>
+        <item>had a crush on a classmate</item>
+        <item>thrown up at work or school</item>
+        <item>been mad at a customer</item>
+        <item>stolen someone\'s idea at work</item>
+        <item>gone to work or school without underwear</item>
+        <item>stolen from work or school</item>
+        <item>pretended to be sick to avoid school or work</item>
+        <item>disliked my job</item>
+        <item>made a fool of myself at a work party</item>
+        <item>gone to work hungover</item>
+        <item>had a dream about someone I work with</item>
+        <item>had a dream about a classmate</item>
+        <item>lied about my job</item>
+        <item>lied during an interview</item>
+        <item>forgotten it was a weekend and went to work or school</item>
+        <item>worked in finance</item>
+        <item>been aroused at work</item>
+        <item>farted at work</item>
+        <item>fired someone</item>
+        <item>bitched about my boss behind their back</item>
+        <item>blamed someone else for my mistake at work</item>
+        <item>kissed a coworker or classmate</item>
+        <item>worn a uniform</item>
+        <item>overslept for work or school</item>
+        <item>gotten someone fired</item>
+        <item>lied to my boss</item>
+        <item>written a book</item>
+        <item>regretted a career decision</item>
+        <item>had a job</item>
+        <item>slept at work</item>
+        <item>slept at school</item>
+        <item>ignored a social media request from a coworker</item>
+        <item>failed an test</item>
+        <item>cheated on a test</item>
+        <item>gone to a school prom</item>
+        <item>gone to a school prom alone</item>
+        <item>gotten a teacher fired</item>
+        <item>slept through a test</item>
+        <item>gone to work or school in my pajamas</item>
+        <item>been to university</item>
+        <item>failed out of university</item>
+        <item>skipped a class</item>
+        <item>received a detention</item>
+        <item>sworn at a classmate or customer</item>
+        <item>had a crush on a teacher</item>
+        <item>slept with a teacher</item>
+        <item>hated a teacher or coworker</item>
+        <item>begged a teacher for a better grade</item>
+        <item>pulled an all-nighter</item>
+        <item>been bullied</item>
+        <item>bullied someone</item>
+        <item>failed a class</item>
+        <item>skipped a day of school</item>
+        <item>farted in front of a classmate or coworker</item>
+        <item>made a teacher or coworker cry</item>
+        <item>regretted choosing a subject at school</item>
+        <item>gone to school or work without deoderent</item>
+        <item>gone to school or work without brushing my teeth</item>
+        <item>played on a school sports team</item>
+        <item>kissed someone in school</item>
+        <item>missed the school bus</item>
+        <item>watched a high school musical movie</item>
+        <item>written an assignment</item>
+        <item>gotten into a fight at school</item>
+        <item>cried at work or school</item>
+        <item>spoken a foreign language</item>
+        <item>pretended I didn't understand a foreign language</item>
+        <item>acted like I fluently speak a foreign language</item>
+        <item>copied homework or an assignment from the internet</item>
+        <item>had someone else take an exam for me</item>
+        <item>insulted a teacher or coworker</item>
+        <item>had tutoring</item>
+        <item>performed in a school play</item>
+        <item>eaten food from a customers plate after they left</item>
+        <item>worn the same clothes to work or school two days in a row</item>
+        <item>flipped a desk</item>
+	<item>taken picture of blackboard</item>
+	<item>play ball of paper</item>
+    </string-array>
+
+    <string-array name="category_weird">
+        <item>punched a wall</item>
+        <item>juggled</item>
+	      <item>Stappled torn cloth(es) instead of stitching it</item>
+        <item>broken a mobile phone</item>	  
+        <item>lost a mobile phone</item>
+        <item>been in a food fight</item>
+        <item>eaten fruit</item>
+        <item>hung upside down from monkey bars</item>
+        <item>urinated in a drink before giving it to someone</item>
+        <item>eaten earwax</item>
+        <item>been humped by a dog</item>
+        <item>seen two girls one cup</item>
+        <item>been attracted to a family member</item>
+        <item>been stuck in an elevator</item>
+    	<item>lose glasses on the beach</item>
+        <item>been attacked by a dolphin</item>
+        <item>thrown up after eating nachos at a movie theater</item>
+	<item></item>
+    </string-array>
+
+</resources>

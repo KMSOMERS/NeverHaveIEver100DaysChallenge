@@ -1,9 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout
+    android:id="@+id/clBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="uk.co.kmsomers.neverhaveiever.questions_screen.QuestionsActivity">
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivInstructions"
+        android:layout_width="@dimen/instructions_icon_size"
+        android:layout_height="@dimen/instructions_icon_size"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="?android:selectableItemBackground"
+        android:src="@drawable/ic_help"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/llIconTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ivCategoryIcon"
+            android:layout_width="@dimen/question_icon_size"
+            android:layout_height="@dimen/question_icon_size"
+            android:layout_marginTop="48dp"/>
+
+        <TextView
+            android:id="@+id/tvCategoryTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Category title"
+            android:textSize="@dimen/medium_text_size"/>
+
+    </LinearLayout>
+
+    <uk.co.kmsomers.neverhaveiever.utils.FadingTextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="@dimen/fading_textview_size"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/large_text_size"
+        android:text="NEVER HAVE I EVER HAD CRIED"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/llButtons"
+        app:layout_constraintTop_toBottomOf="@+id/llIconTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/avQuestions"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <Button
+            android:id="@+id/btnQuit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/quit"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="0.5"
+            android:text="@string/question_next"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/avQuestions"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="ca-app-pub-3940256099942544/6300978111"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--ads:layout_constraintBottom_toBottomOf="parent"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--ads:layout_constraintRight_toRightOf="parent"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--ads:layout_constraintLeft_toLeftOf="parent">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
 
 </android.support.constraint.ConstraintLayout>

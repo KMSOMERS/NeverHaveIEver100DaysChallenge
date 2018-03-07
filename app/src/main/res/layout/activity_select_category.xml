@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/app_header_text_size"
+        android:elevation="2dp"
+        app:layout_constraintTop_toTopOf="@+id/grav"
+        app:layout_constraintRight_toRightOf="@+id/grav"
+        app:layout_constraintLeft_toLeftOf="@+id/grav"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="2dp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/btnSexAndRelationships"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_button_height_size"
+            android:layout_marginStart="@dimen/category_button_margin_size"
+            android:layout_marginEnd="@dimen/category_button_margin_size"
+            android:layout_marginBottom="8dp"
+            android:text="@string/category_sex_and_relationships"
+            android:background="@color/material_pink_500"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/btnWorkAndSchool"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_button_height_size"
+            android:layout_marginStart="@dimen/category_button_margin_size"
+            android:layout_marginEnd="@dimen/category_button_margin_size"
+            android:layout_marginBottom="8dp"
+            android:text="@string/category_work_and_school"
+            android:background="@color/material_blue_500"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/btnWeird"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_button_height_size"
+            android:layout_marginStart="@dimen/category_button_margin_size"
+            android:layout_marginEnd="@dimen/category_button_margin_size"
+            android:layout_marginBottom="8dp"
+            android:text="@string/category_weird"
+            android:background="@color/material_deep_purple_500"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/btnDrinking"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_button_height_size"
+            android:layout_marginStart="@dimen/category_button_margin_size"
+            android:layout_marginEnd="@dimen/category_button_margin_size"
+            android:layout_marginBottom="8dp"
+            android:text="@string/category_drinking"
+            android:background="@color/material_light_green_500"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+        <Button
+            android:id="@+id/btnRandom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/category_button_height_size"
+            android:layout_marginStart="@dimen/category_button_margin_size"
+            android:layout_marginEnd="@dimen/category_button_margin_size"
+            android:text="@string/category_random"
+            android:background="@color/material_amber_500"
+            style="@style/Widget.AppCompat.Button.Colored"/>
+
+    </LinearLayout>
+
+    <!--<com.google.android.gms.ads.AdView-->
+        <!--xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+        <!--android:id="@+id/avCategory"-->
+        <!--android:elevation="2dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--ads:adSize="BANNER"-->
+        <!--ads:adUnitId="ca-app-pub-3940256099942544/6300978111"-->
+        <!--ads:layout_constraintBottom_toBottomOf="@+id/grav"-->
+        <!--android:layout_marginBottom="8dp"-->
+        <!--android:layout_marginRight="8dp"-->
+        <!--ads:layout_constraintRight_toRightOf="parent"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--ads:layout_constraintLeft_toLeftOf="parent">-->
+    <!--</com.google.android.gms.ads.AdView>-->
+
+    <com.github.glomadrian.grav.GravView
+        android:id="@+id/grav"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="-8dp"
+        app:pointGenerator="com.github.glomadrian.grav.generator.point.CircularPointGenerator"
+        app:regular_cell_size="200"
+        app:regular_variance="200"
+        app:gravGenerator="com.github.glomadrian.grav.generator.grav.BallGenerator"
+        app:ball_from_size="8dp"
+        app:ball_to_size="24dp"
+        app:colorGenerator="com.github.glomadrian.grav.generator.paint.ArrayColorGenerator"
+        app:array_colors="@array/material_colours"
+        app:animationGenerators="@array/animation_generators"
+        app:shake_direction="horizontal"
+        app:shake_min_duration="4000"
+        app:shake_max_duration="6000"
+        app:shake_variance="48dp"
+        app:side_to_side_min_duration="2000"
+        app:side_to_side_max_duration="5000"
+        app:side_to_side_direction="downToUp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

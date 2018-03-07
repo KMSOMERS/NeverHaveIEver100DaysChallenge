@@ -19,10 +19,17 @@ public class CategorySelectPresenter implements CategorySelectContract.Presenter
     @Override
     public void attach(CategorySelectContract.View view) {
         this.view = view;
+        view.setupViews();
     }
 
     @Override
     public void start() {
-        view.setupViews();
+        view.setStatusBarColour(model.getStatusBarColour());
+    }
+
+    @Override
+    public void categoryButtonPressed(String category) {
+        model.setActionBarColour(category);
+        view.intentToQuestions(category);
     }
 }

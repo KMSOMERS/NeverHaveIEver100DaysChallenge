@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">NeverHaveIEver</string>
+    <string name="app_name">Never Have I Ever</string>
+
+    <string name="category_sex_and_relationships">Sex and Relationships</string>
+    <string name="category_weird">Weird</string>
+    <string name="category_drinking">Drinking</string>
+    <string name="category_work_and_school">Work and School</string>
+    <string name="category_random">Random</string>
+
+    <string name="question_next">Next question</string>
+    <string name="question_previous">Previous question</string>
+    <string name="quit">Quit</string>
+    <string name="ok">OK</string>
+
+    <string name="instructions_title">Instructions</string>
+    <string name="never_have_I_ever">Never have I ever </string>
+
+    <string name="quiz_instructions"><b>How to play:</b> All players hold up three fingers. After each question if the question applies to the player they lose a finger. After a player has no fingers remaining they have lost and must drink for 3 seconds. <b>Alernatively</b>: Take it in turns to read out questions and drink if the question applies.</string>
+
 </resources>

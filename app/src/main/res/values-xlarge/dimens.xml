@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_header_text_size">80sp</dimen>
+    <dimen name="title_text_size">48sp</dimen>
+    <dimen name="large_text_size">48sp</dimen>
+    <dimen name="medium_text_size">40sp</dimen>
+    <dimen name="small_text_size">32sp</dimen>
+
+    <dimen name="questions_margin">48dp</dimen>
+    <dimen name="instructions_icon_size">64dp</dimen>
+
+    <dimen name="question_icon_size">400dp</dimen>
+    <dimen name="fading_textview_size">576dp</dimen>
+
+    <dimen name="category_button_margin_size">128dp</dimen>
+    <dimen name="category_button_height_size">96dp</dimen>
+
+</resources>
