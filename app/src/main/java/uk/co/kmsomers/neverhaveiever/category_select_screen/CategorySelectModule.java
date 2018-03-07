@@ -2,38 +2,27 @@ package uk.co.kmsomers.neverhaveiever.category_select_screen;
 
 import javax.inject.Singleton;
 
+import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
+import uk.co.kmsomers.neverhaveiever.di.ActivityScoped;
 import uk.co.kmsomers.neverhaveiever.helpers.SharedPreferencesHelper;
 
 /**
  * Created by kizer on 05/03/2018.
  */
 
-@Singleton
 @Module
-public class CategorySelectModule {
+public abstract class CategorySelectModule {
 
-    public final CategorySelectContract.View view;
-
-    public CategorySelectModule(CategorySelectContract.View view){
-        this.view = view;
-    }
-
+    @ActivityScoped
     @Provides
-    public CategorySelectContract.View providesCategorySelectView(){
-        return view;
-    }
-
-    @Provides
-    public CategorySelectModel providesCategorySelectModel(SharedPreferencesHelper sharedPreferencesHelper){
+    static CategorySelectModel providesCategorySelectModel(SharedPreferencesHelper sharedPreferencesHelper){
         return new CategorySelectModel(sharedPreferencesHelper);
     }
 
-    @Provides
-    public CategorySelectContract.Presenter providesCategorySelectPresenter(CategorySelectContract.View view,
-                                                                            CategorySelectModel model){
-        return new CategorySelectPresenter(view, model);
-    }
+    @ActivityScoped
+    @Binds
+    abstract CategorySelectContract.Presenter providesCategorySelectPresenter(CategorySelectPresenter presenter);
 
 }

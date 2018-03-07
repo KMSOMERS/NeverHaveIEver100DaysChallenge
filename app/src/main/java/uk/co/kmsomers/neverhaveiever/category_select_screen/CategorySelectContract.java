@@ -7,11 +7,12 @@ package uk.co.kmsomers.neverhaveiever.category_select_screen;
 public interface CategorySelectContract {
 
     interface View {
-
+        void setupViews();
     }
 
     interface Presenter {
-
+        void attach(View view);
+        void start();
     }
 
 }
