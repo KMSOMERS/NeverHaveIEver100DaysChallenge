@@ -23,6 +23,6 @@ public abstract class CategorySelectModule {
 
     @ActivityScoped
     @Binds
-    abstract CategorySelectContract.Presenter providesCategorySelectPresenter(CategorySelectPresenter presenter);
+    abstract CategorySelectContract.Presenter categorySelectPresenter(CategorySelectPresenter presenter);
 
 }

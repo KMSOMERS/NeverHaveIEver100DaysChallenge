@@ -21,4 +21,9 @@ public class HelpersModule {
         return new SharedPreferencesHelper(context);
     }
 
+    @ActivityScoped
+    @Provides
+    static ResourcesHelper providesResourcesHelper(Context context){
+        return new ResourcesHelper(context);
+    }
 }

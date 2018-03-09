@@ -2,13 +2,44 @@ package uk.co.kmsomers.neverhaveiever.questions_screen;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
+import android.speech.tts.TextToSpeech;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.google.android.gms.ads.AdView;
+
+import java.util.Locale;
+
+import javax.inject.Inject;
+
+import dagger.android.support.DaggerAppCompatActivity;
 import uk.co.kmsomers.neverhaveiever.AppConstants;
 import uk.co.kmsomers.neverhaveiever.R;
+import uk.co.kmsomers.neverhaveiever.di.DaggerAppComponent;
+import uk.co.kmsomers.neverhaveiever.utils.FadingTextView;
 
-public class QuestionsActivity extends AppCompatActivity {
+public class QuestionsActivity extends DaggerAppCompatActivity implements QuestionsContract.View {
+
+    @Inject
+    QuestionsContract.Presenter presenter;
+
+    private ImageView ivInstructions;
+    private ImageView ivCategoryIcon;
+
+    private TextView tvCategoryTitle;
+    private FadingTextView ftvQuestion;
+
+    private Button btnNext;
+    private Button btnQuit;
+
+    private TextToSpeech textToSpeech;
+    private AdView avQuestions;
 
     public static Intent getQuestionsActivityIntent(Context context, String category){
         Intent questionsIntent = new Intent(context, QuestionsActivity.class);
@@ -20,5 +51,85 @@ public class QuestionsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_questions);
+
+        Bundle bundle = getIntent().getExtras();
+
+        textToSpeech = new TextToSpeech(this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int i) {
+                textToSpeech.setLanguage(Locale.UK);
+            }
+        });
+
+        presenter.attach(this);
+        presenter.initialise(bundle.getString(AppConstants.QUESTIONS_INTENT_CATEGORY));
+        presenter.start();
+    }
+
+    @Override
+    public void initialiseViews() {
+        ivInstructions = findViewById(R.id.ivInstructions);
+        ivInstructions.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                presenter.instructionsPressed();
+            }
+        });
+
+        ivCategoryIcon = findViewById(R.id.ivCategoryIcon);
+        tvCategoryTitle = findViewById(R.id.tvCategoryTitle);
+        ftvQuestion = findViewById(R.id.tvQuestion);
+
+        btnNext = findViewById(R.id.btnNext);
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                presenter.nextButtonPressed();
+            }
+        });
+
+        btnQuit = findViewById(R.id.btnQuit);
+        btnQuit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Consider moving to presenter?
+                onBackPressed();
+            }
+        });
+
+    }
+
+    @Override
+    public void setViewColours(int colour) {
+        btnNext.setBackgroundColor(colour);
+        btnQuit.setBackgroundColor(colour);
+        ftvQuestion.setTextColor(colour);
+        tvCategoryTitle.setTextColor(colour);
+        Drawable instructionsIcon = getDrawable(R.drawable.ic_help);
+        instructionsIcon.setTint(ResourcesCompat.getColor(getResources(), colour, null));
+        ivInstructions.setImageDrawable(instructionsIcon);
+    }
+
+    @Override
+    public void setCategoryTitle(String title) {
+        tvCategoryTitle.setText(title);
+    }
+
+    @Override
+    public void setStatusBarColour(int colour) {
+        int statusBarColour = ResourcesCompat.getColor(getResources(), colour, null);
+        getWindow().setStatusBarColor(statusBarColour);
+    }
+
+    @Override
+    public void setIcon(int icon) {
+        ivCategoryIcon.setImageDrawable(ResourcesCompat.getDrawable(getResources(), icon, null));
+    }
+
+    @Override
+    public void setQuestion(String question) {
+        ftvQuestion.show();
+        ftvQuestion.setText(getString(R.string.never_have_I_ever) + " " + question);
+        textToSpeech.speak(question, TextToSpeech.QUEUE_FLUSH, null, null);
     }
 }
