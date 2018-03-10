@@ -17,7 +17,7 @@ public class QuestionsModel {
         this.resourcesHelper = resourcesHelper;
     }
 
-    public int getStatusBarColour(String category){
+    public int getStatusBarColour(){
         return sharedPreferencesHelper.getStatusBarColour();
     }
 

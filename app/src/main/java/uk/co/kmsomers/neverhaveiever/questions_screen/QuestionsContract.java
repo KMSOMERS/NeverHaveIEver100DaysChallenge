@@ -18,6 +18,8 @@ public interface QuestionsContract {
         void setIcon(int icon);
 
         void setQuestion(String question);
+
+        void showInstructionDialog(int colour);
     }
 
     interface Presenter {

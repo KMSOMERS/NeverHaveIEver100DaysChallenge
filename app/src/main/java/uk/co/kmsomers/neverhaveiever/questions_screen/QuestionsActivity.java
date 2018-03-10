@@ -1,10 +1,12 @@
 package uk.co.kmsomers.neverhaveiever.questions_screen;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.speech.tts.TextToSpeech;
 import android.support.v4.content.res.ResourcesCompat;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -80,6 +82,13 @@ public class QuestionsActivity extends DaggerAppCompatActivity implements Questi
         tvCategoryTitle = findViewById(R.id.tvCategoryTitle);
         ftvQuestion = findViewById(R.id.tvQuestion);
 
+        ftvQuestion.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                presenter.nextButtonPressed();
+            }
+        });
+
         btnNext = findViewById(R.id.btnNext);
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,10 +110,10 @@ public class QuestionsActivity extends DaggerAppCompatActivity implements Questi
 
     @Override
     public void setViewColours(int colour) {
-        btnNext.setBackgroundColor(colour);
-        btnQuit.setBackgroundColor(colour);
-        ftvQuestion.setTextColor(colour);
-        tvCategoryTitle.setTextColor(colour);
+        btnNext.setBackgroundColor(ResourcesCompat.getColor(getResources(), colour, null));
+        btnQuit.setBackgroundColor(ResourcesCompat.getColor(getResources(), colour, null));
+        ftvQuestion.setTextColor(ResourcesCompat.getColor(getResources(), colour, null));
+        tvCategoryTitle.setTextColor(ResourcesCompat.getColor(getResources(), colour, null));
         Drawable instructionsIcon = getDrawable(R.drawable.ic_help);
         instructionsIcon.setTint(ResourcesCompat.getColor(getResources(), colour, null));
         ivInstructions.setImageDrawable(instructionsIcon);
@@ -128,8 +137,31 @@ public class QuestionsActivity extends DaggerAppCompatActivity implements Questi
 
     @Override
     public void setQuestion(String question) {
+        String fullQuestion =  getString(R.string.never_have_I_ever_question, question);
         ftvQuestion.show();
-        ftvQuestion.setText(getString(R.string.never_have_I_ever) + " " + question);
-        textToSpeech.speak(question, TextToSpeech.QUEUE_FLUSH, null, null);
+        ftvQuestion.setText(fullQuestion);
+        textToSpeech.speak(fullQuestion, TextToSpeech.QUEUE_FLUSH, null, null);
+    }
+
+    @Override
+    public void showInstructionDialog(final int textColour) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle(R.string.instructions_title);
+        builder.setPositiveButton(getString(R.string.ok), new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                //To dismiss
+            }
+        });
+        builder.setMessage(R.string.quiz_instructions);
+
+        final AlertDialog dialog = builder.create();
+        dialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                dialog.getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(ResourcesCompat.getColor(getResources(), textColour, null));
+            }
+        });
+        dialog.show();
     }
 }

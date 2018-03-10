@@ -1,9 +1,11 @@
 package uk.co.kmsomers.neverhaveiever.helpers;
 
 import android.content.Context;
+import android.support.v4.content.res.ResourcesCompat;
 
 import uk.co.kmsomers.neverhaveiever.AppConstants;
 import uk.co.kmsomers.neverhaveiever.R;
+import uk.co.kmsomers.neverhaveiever.utils.CommonUtils;
 
 /**
  * Created by kizer on 09/03/2018.
@@ -52,20 +54,21 @@ public class ResourcesHelper {
     public String[] getCategoryQuestions(String category){
         switch (category){
             case AppConstants.CATEGORY_SEX_AND_RELATIONSHIPS:
-
-                break;
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_sex_and_relationshps), context.getString(R.string.game_instruction));
             case AppConstants.CATEGORY_DRINKING:
-
-                break;
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_drinking), context.getString(R.string.game_instruction));
             case AppConstants.CATEGORY_WEIRD:
-
-                break;
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_weird), context.getString(R.string.game_instruction));
             case AppConstants.CATEGORY_WORK_AND_SCHOOL:
-
-                break;
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_work_and_school), context.getString(R.string.game_instruction));
             case AppConstants.CATEGORY_RANDOM:
-
-                break;
+                String[] sexAndRelationshipsQuestions = context.getResources().getStringArray(R.array.category_sex_and_relationshps);
+                String[] drinkingQuestions = context.getResources().getStringArray(R.array.category_drinking);
+                String[] animalsQuestions = context.getResources().getStringArray(R.array.category_work_and_school);
+                String[] familyQuestions = context.getResources().getStringArray(R.array.category_weird);
+                String[] allQuestions = CommonUtils.concatenate(CommonUtils.concatenate(sexAndRelationshipsQuestions, drinkingQuestions),
+                                                CommonUtils.concatenate(animalsQuestions, familyQuestions));
+                return CommonUtils.randomiseQuestions(allQuestions, context.getString(R.string.game_instruction));
         }
         return new String[0];
     }

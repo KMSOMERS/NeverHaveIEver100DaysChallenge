@@ -14,7 +14,9 @@
 
     <string name="instructions_title">Instructions</string>
     <string name="never_have_I_ever">Never have I ever </string>
+    <string name="never_have_I_ever_question">Never have I ever %s</string>
 
     <string name="quiz_instructions"><b>How to play:</b> All players hold up three fingers. After each question if the question applies to the player they lose a finger. After a player has no fingers remaining they have lost and must drink for 3 seconds. <b>Alernatively</b>: Take it in turns to read out questions and drink if the question applies.</string>
+    <string name="game_instruction">\nTap text or next question to play.</string>
 
 </resources>
