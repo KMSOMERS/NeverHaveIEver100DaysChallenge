@@ -32,21 +32,21 @@ public class QuestionsPresenter implements QuestionsContract.Presenter{
     }
 
     @Override
-    public void start() {
+    public void start(String defaultQuestion) {
         view.initialiseViews();
         view.showAd();
         view.setCategoryTitle(category);
         view.setStatusBarColour(model.getStatusBarColour());
         view.setViewColours(model.getViewColour(category));
         view.setIcon(model.getCategoryIcon(category));
-        view.setQuestion(questions[0]);
+        view.setQuestion(defaultQuestion);
     }
 
     @Override
     public void nextButtonPressed() {
-        currentQuestionPosition = (currentQuestionPosition + 1) % questions.length;
         String question = questions[currentQuestionPosition];
         view.setQuestion(question);
+        currentQuestionPosition = (currentQuestionPosition + 1) % questions.length;
     }
 
     @Override

@@ -15,7 +15,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 import java.util.Locale;
 
@@ -23,6 +25,7 @@ import javax.inject.Inject;
 
 import dagger.android.support.DaggerAppCompatActivity;
 import uk.co.kmsomers.neverhaveiever.AppConstants;
+import uk.co.kmsomers.neverhaveiever.BuildConfig;
 import uk.co.kmsomers.neverhaveiever.R;
 import uk.co.kmsomers.neverhaveiever.di.DaggerAppComponent;
 import uk.co.kmsomers.neverhaveiever.utils.FadingTextView;
@@ -66,7 +69,7 @@ public class QuestionsActivity extends DaggerAppCompatActivity implements Questi
 
         presenter.attach(this);
         presenter.initialise(bundle.getString(AppConstants.QUESTIONS_INTENT_CATEGORY));
-        presenter.start();
+        presenter.start(getString(R.string.game_instruction));
     }
 
     @Override

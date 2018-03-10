@@ -1,5 +1,7 @@
 package uk.co.kmsomers.neverhaveiever;
 
+import android.os.Environment;
+
 import com.google.android.gms.ads.MobileAds;
 
 import dagger.android.AndroidInjector;
@@ -20,7 +22,6 @@ public class NeverApplication extends DaggerApplication {
     @Override
     public void onCreate() {
         super.onCreate();
-        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
-        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
+        MobileAds.initialize(this, BuildConfig.AD_ID);
     }
 }

@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        release_nhie {
+            keyAlias 'neverHaveIEverKey'
+            keyPassword 'Jibbles1'
+            storeFile file('D:/Android_Projects/keys/never_have_i_ever.jks')
+            storePassword 'Jibbles1'
+        }
+    }
     compileSdkVersion 26
     defaultConfig {
         applicationId "uk.co.kmsomers.neverhaveiever"
@@ -9,6 +17,25 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    flavorDimensions "default"
+    productFlavors {
+        development {
+            dimension "default"
+            applicationId 'uk.co.kmsomers.neverhaveiever.development'
+            buildConfigField "String", "ENVIROMENT", "\"DEV\""
+            buildConfigField "String", "AD_ID", "\"ca-app-pub-3940256099942544~3347511713\""
+            resValue "string", "BANNER_ID", "\"ca-app-pub-3940256099942544/6300978111\""
+        }
+        production {
+            dimension "default"
+            applicationId 'uk.co.kmsomers.neverhaveiever.development'
+            buildConfigField "String", "ENVIROMENT", "\"PROD\""
+            //Hidden AD_ID in a file that is unversioned
+            buildConfigField "String", "AD_ID", AD_ID
+            resValue "string", "BANNER_ID", BANNER_ID
+            signingConfig signingConfigs.release_nhie
+        }
     }
     buildTypes {
         release {
@@ -21,16 +48,14 @@ android {
 def daggerVersion = '2.11'
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:26.1.0'
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-
     //Ads
     compile 'com.google.android.gms:play-services-ads:11.8.0'
-
     // Dagger dependencies
     annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
     provided 'org.glassfish:javax.annotation:10.0-b28'
@@ -38,10 +63,8 @@ dependencies {
     compile "com.google.dagger:dagger-android:$daggerVersion"
     compile "com.google.dagger:dagger-android-support:$daggerVersion"
     annotationProcessor "com.google.dagger:dagger-android-processor:$daggerVersion"
-
     //Mockito
-    testCompile "org.mockito:mockito-core:2.+"
-
+    testCompile 'org.mockito:mockito-core:2.+'
     //Grav
     compile 'com.github.glomadrian:Grav:1.1'
 }

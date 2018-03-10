@@ -54,13 +54,13 @@ public class ResourcesHelper {
     public String[] getCategoryQuestions(String category){
         switch (category){
             case AppConstants.CATEGORY_SEX_AND_RELATIONSHIPS:
-                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_sex_and_relationshps), context.getString(R.string.game_instruction));
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_sex_and_relationshps));
             case AppConstants.CATEGORY_DRINKING:
-                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_drinking), context.getString(R.string.game_instruction));
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_drinking));
             case AppConstants.CATEGORY_WEIRD:
-                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_weird), context.getString(R.string.game_instruction));
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_weird));
             case AppConstants.CATEGORY_WORK_AND_SCHOOL:
-                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_work_and_school), context.getString(R.string.game_instruction));
+                return CommonUtils.randomiseQuestions(context.getResources().getStringArray(R.array.category_work_and_school));
             case AppConstants.CATEGORY_RANDOM:
                 String[] sexAndRelationshipsQuestions = context.getResources().getStringArray(R.array.category_sex_and_relationshps);
                 String[] drinkingQuestions = context.getResources().getStringArray(R.array.category_drinking);
@@ -68,7 +68,7 @@ public class ResourcesHelper {
                 String[] familyQuestions = context.getResources().getStringArray(R.array.category_weird);
                 String[] allQuestions = CommonUtils.concatenate(CommonUtils.concatenate(sexAndRelationshipsQuestions, drinkingQuestions),
                                                 CommonUtils.concatenate(animalsQuestions, familyQuestions));
-                return CommonUtils.randomiseQuestions(allQuestions, context.getString(R.string.game_instruction));
+                return CommonUtils.randomiseQuestions(allQuestions);
         }
         return new String[0];
     }

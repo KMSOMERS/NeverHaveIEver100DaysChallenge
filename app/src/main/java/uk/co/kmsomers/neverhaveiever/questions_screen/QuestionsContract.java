@@ -27,7 +27,7 @@ public interface QuestionsContract {
     interface Presenter {
         void initialise(String category);
 
-        void start();
+        void start(String defaultQuestion);
 
         void attach(QuestionsContract.View view);
 
