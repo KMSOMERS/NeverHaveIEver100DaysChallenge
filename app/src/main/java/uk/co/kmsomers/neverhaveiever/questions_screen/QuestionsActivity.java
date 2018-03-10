@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import java.util.Locale;
@@ -105,7 +106,13 @@ public class QuestionsActivity extends DaggerAppCompatActivity implements Questi
                 onBackPressed();
             }
         });
+    }
 
+    @Override
+    public void showAd() {
+        avQuestions = findViewById(R.id.avQuestions);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        avQuestions.loadAd(adRequest);
     }
 
     @Override

@@ -15,6 +15,8 @@ public interface QuestionsContract {
 
         void setStatusBarColour(int colour);
 
+        void showAd();
+
         void setIcon(int icon);
 
         void setQuestion(String question);

@@ -34,6 +34,7 @@ public class QuestionsPresenter implements QuestionsContract.Presenter{
     @Override
     public void start() {
         view.initialiseViews();
+        view.showAd();
         view.setCategoryTitle(category);
         view.setStatusBarColour(model.getStatusBarColour());
         view.setViewColours(model.getViewColour(category));
