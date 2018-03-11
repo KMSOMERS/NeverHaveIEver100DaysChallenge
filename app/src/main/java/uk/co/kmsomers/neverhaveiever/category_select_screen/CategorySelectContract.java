@@ -17,6 +17,8 @@ public interface CategorySelectContract {
     interface Presenter {
         void attach(View view);
 
+        void initialiseViews();
+
         void start();
 
         void categoryButtonPressed(String category);

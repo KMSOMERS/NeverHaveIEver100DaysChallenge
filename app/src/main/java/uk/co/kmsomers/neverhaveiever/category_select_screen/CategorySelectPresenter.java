@@ -19,6 +19,10 @@ public class CategorySelectPresenter implements CategorySelectContract.Presenter
     @Override
     public void attach(CategorySelectContract.View view) {
         this.view = view;
+    }
+
+    @Override
+    public void initialiseViews() {
         view.setupViews();
     }
 

@@ -29,6 +29,7 @@ public class CategorySelectActivity extends DaggerAppCompatActivity implements C
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_select_category);
         presenter.attach(this);
+        presenter.initialiseViews();
     }
 
     @Override
