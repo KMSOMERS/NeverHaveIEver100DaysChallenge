@@ -14,7 +14,7 @@
         <item>#F06292</item>
     </string-array>
 
-    <string-array name="category_sex_and_relationshps">
+    <string-array name="category_sex_and_relationships">
         <item>had a boyfriend</item>
         <item>had a girlfriend</item>
         <item>had sex</item>
@@ -325,6 +325,8 @@
         <item>masturbated while lying next to my sleeping partner</item>
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
+		<item>farted while having sex</item>
+		<item>rejected sex for playing video games</item>
         <item>had sex with someone in this room</item>
 	      <item>been asked to do streaptease for money after an office party you don't recall anything from</item>    
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
@@ -523,6 +525,7 @@
         <item>lied to a customer</item>
         <item>tried to start a company</item>
         <item>flirted with someone I work with</item>
+		<item>flirted with my teacher</item>
         <item>slept with someone from work</item>
         <item>worked in sales</item>
         <item>worked in IT</item>
@@ -628,6 +631,7 @@
         <item>been in a food fight</item>
         <item>eaten fruit</item>
         <item>hung upside down from monkey bars</item>
+		<item>drank my pee</item>
         <item>urinated in a drink before giving it to someone</item>
         <item>eaten earwax</item>
         <item>been humped by a dog</item>
