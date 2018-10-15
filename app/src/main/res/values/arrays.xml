@@ -617,6 +617,10 @@
         <item>skipped school because of snow</item>
         <item>jumped out of a window</item>
 	<item>pulled a 'sickie' from work</item>
+        <item>Claimed illness to escape from school</item>
+        <item>grades you need to get A+</item>
+        <item>got away during job interview</item>
+	<item>hours you need to prepare for final test</item>
     </string-array>
 
     <string-array name="category_weird">
@@ -649,5 +653,12 @@
         <item>made money by performing on the street</item>
         <item>asked someone to repair my printer</item>
         <item>grew a man bun to be cool</item>
+        <item>seen someone steal and do nothing</item>
+        <item>wished from dwarves</item>
+        <item>got a squirrel up your nose</item>
+        <item>handcuffed a one-armed man</item>
+        <item>doubted the existence of others than you</item>
+        <item>untied your shoes when you take them off</item>
+        <item>worn a jockstrap</item>
     </string-array>
 </resources>
