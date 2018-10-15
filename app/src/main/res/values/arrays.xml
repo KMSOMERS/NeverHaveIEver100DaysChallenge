@@ -13,6 +13,14 @@
         <item>#FFD54F</item>
         <item>#F06292</item>
     </string-array>
+	
+	 <string-array name="category_hobbies">
+        <item>playing chess</item>
+        <item>playing cricket</item>
+        <item>painting</item>
+        <item>reading novel</item>
+        <item>singing</item>
+    </string-array>
 
     <string-array name="category_sex_and_relationshps">
         <item>had a boyfriend</item>
