@@ -620,7 +620,7 @@
     <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>Stappled torn cloth(es) instead of stitching it</item>
+	<item>Stappled torn cloth(es) instead of stitching it</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
@@ -635,7 +635,15 @@
     	<item>lose glasses on the beach</item>
         <item>been attacked by a dolphin</item>
         <item>thrown up after eating nachos at a movie theater</item>
-	<item></item>
+	<item>jumped from a roof</item>
+	<item>seen an alligator or crocodile in the wild</item> 
+	<item>set my or someone else’s hair on fire on purpose</item> 
+	<item>ridden an animal</item>     
+	<item>been trapped in an elevator</item>
+	<item>been so sun burnt I couldn’t wear a shirt</item>   
+	<item>gone hunting</item>   
+	<item>worn glasses without lenses</item>  
+	<item>had a paranormal experience</item>
+	<item>made money by performing on the street</item>
     </string-array>
-
 </resources>
