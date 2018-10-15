@@ -536,7 +536,7 @@
         <item>been suspended</item>
         <item>pretended to be sick to go home</item>
         <item>insulted my teacher or boss</item>
-        <item>been late to work or shcool</item>
+        <item>been late to work or school</item>
         <item>had a crush on a classmate</item>
         <item>thrown up at work or school</item>
         <item>been mad at a customer</item>
@@ -617,6 +617,7 @@
         <item>play ball of paper</item>
         <item>skipped school because of snow</item>
         <item>jumped out of a window</item>
+	<item>pulled a 'sickie' from work</item>
     </string-array>
 
     <string-array name="category_weird">
