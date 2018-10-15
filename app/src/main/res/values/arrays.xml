@@ -509,11 +509,11 @@
         <item>given away a secret while drunk</item>
         <item>played a drinking game</item>
         <item>been sick from drinking</item>
-	<item>drank so much that I fell asleep while having sex</item>
-    	<item>drinking on an empty stomach</item>
-	<item>Drink alone</item>
-	<item>Talked to anyone drunk</item>
-	<item>drink whiskey like water</item>
+	      <item>drank so much that I fell asleep while having sex</item>
+    	  <item>drank on an empty stomach</item>
+        <item>Drink alone</item>
+        <item>Talked to anyone drunk</item>
+        <item>drink whiskey like water</item>
     </string-array>
 
     <string-array name="category_work_and_school">
@@ -613,15 +613,16 @@
         <item>eaten food from a customers plate after they left</item>
         <item>worn the same clothes to work or school two days in a row</item>
         <item>flipped a desk</item>
-	<item>taken picture of blackboard</item>
-	<item>play ball of paper</item>
-	<item>skipped school because of snow</item>
+        <item>taken picture of blackboard</item>
+        <item>play ball of paper</item>
+        <item>skipped school because of snow</item>
+        <item>jumped out of a window</item>
     </string-array>
 
     <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	<item>Stappled torn cloth(es) instead of stitching it</item>
+	      <item>Stappled torn cloth(es) instead of stitching it</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
@@ -633,18 +634,19 @@
         <item>seen two girls one cup</item>
         <item>been attracted to a family member</item>
         <item>been stuck in an elevator</item>
-    	<item>lose glasses on the beach</item>
+      	<item>lose glasses on the beach</item>
         <item>been attacked by a dolphin</item>
         <item>thrown up after eating nachos at a movie theater</item>
-	<item>jumped from a roof</item>
-	<item>seen an alligator or crocodile in the wild</item> 
-	<item>set my or someone else’s hair on fire on purpose</item> 
-	<item>ridden an animal</item>     
-	<item>been trapped in an elevator</item>
-	<item>been so sun burnt I couldn’t wear a shirt</item>   
-	<item>gone hunting</item>   
-	<item>worn glasses without lenses</item>  
-	<item>had a paranormal experience</item>
-	<item>made money by performing on the street</item>
+        <item>jumped from a roof</item>
+        <item>seen an alligator or crocodile in the wild</item> 
+        <item>set my or someone else’s hair on fire on purpose</item> 
+        <item>ridden an animal</item>     
+        <item>been trapped in an elevator</item>
+        <item>been so sun burnt I couldn’t wear a shirt</item>   
+        <item>gone hunting</item>   
+        <item>worn glasses without lenses</item>  
+        <item>had a paranormal experience</item>
+        <item>made money by performing on the street</item>
+        <item>asked someone to repair my printer</item>
     </string-array>
 </resources>
