@@ -55,7 +55,7 @@
         <item>had sex before the age of 17</item>
         <item>had sex before the age of 16</item>
         <item>had sex before the age of 25</item>
-	<item>had sex after the age of 75</item>   
+        <item>had sex after the age of 75</item>
         <item>showered with someone of the opposite sex</item>
         <item>showered with someone of the same sex</item>
         <item>had sex on a car</item>
@@ -194,7 +194,6 @@
         <item>had someone strip for me</item>
         <item>stripped for someone</item>
         <item>had kinky sex</item>
-        <item>had rough sex</item>
         <item>exposed myself because someone asked</item>
         <item>exposed myself because of a dare</item>
         <item>kissed someone because of a dare</item>
@@ -327,10 +326,9 @@
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
         <item>had sex with someone in this room</item>
-	      <item>been asked to do streaptease for money after an office party you don't recall anything from</item>    
+        <item>been asked to do streaptease for money after an office party you don\'t recall anything from</item>
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
         <item>dated someone older than me</item>
-        <item>dated someone ten years older than me</item>
         <item>dated someone younger than me</item>
         <item>advised someone to leave their partner</item>
         <item>been dumped</item>
@@ -406,7 +404,7 @@
         <item>sent nudes</item>
         <item>received nudes</item>
         <item>flirted with a person to win a bet</item>
-        <item>fantasized about my friend's significant other</item>
+        <item>fantasized about my friend\'s significant other</item>
         <item>slept with my boss to get ahead, or with a teacher to get a good grade</item>
     </string-array>
 
@@ -509,8 +507,8 @@
         <item>given away a secret while drunk</item>
         <item>played a drinking game</item>
         <item>been sick from drinking</item>
-	      <item>drank so much that I fell asleep while having sex</item>
-    	  <item>drank on an empty stomach</item>
+        <item>drank so much that I fell asleep while having sex</item>
+        <item>drank on an empty stomach</item>
         <item>Drink alone</item>
         <item>Talked to anyone drunk</item>
         <item>drink whiskey like water</item>
@@ -519,7 +517,7 @@
     <string-array name="category_work_and_school">
         <item>lied on my cv</item>
         <item>shouted at a customer</item>
-	      <item>Cursed a teacher</item>
+        <item>Cursed a teacher</item>
         <item>had my boss shout at me</item>
         <item>lied to a customer</item>
         <item>tried to start a company</item>
@@ -603,7 +601,7 @@
         <item>gotten into a fight at school</item>
         <item>cried at work or school</item>
         <item>spoken a foreign language</item>
-        <item>pretended I didn't understand a foreign language</item>
+        <item>pretended I didn\'t understand a foreign language</item>
         <item>acted like I fluently speak a foreign language</item>
         <item>copied homework or an assignment from the internet</item>
         <item>had someone else take an exam for me</item>
@@ -617,14 +615,14 @@
         <item>play ball of paper</item>
         <item>skipped school because of snow</item>
         <item>jumped out of a window</item>
-	<item>pulled a 'sickie' from work</item>
+        <item>pulled a \'sickie\' from work</item>
     </string-array>
 
     <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>Stappled torn cloth(es) instead of stitching it</item>
-        <item>broken a mobile phone</item>	  
+        <item>Stappled torn cloth(es) instead of stitching it</item>
+        <item>broken a mobile phone</item>
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
         <item>eaten fruit</item>
@@ -635,17 +633,17 @@
         <item>seen two girls one cup</item>
         <item>been attracted to a family member</item>
         <item>been stuck in an elevator</item>
-      	<item>lose glasses on the beach</item>
+        <item>lose glasses on the beach</item>
         <item>been attacked by a dolphin</item>
         <item>thrown up after eating nachos at a movie theater</item>
         <item>jumped from a roof</item>
-        <item>seen an alligator or crocodile in the wild</item> 
-        <item>set my or someone else’s hair on fire on purpose</item> 
-        <item>ridden an animal</item>     
+        <item>seen an alligator or crocodile in the wild</item>
+        <item>set my or someone else’s hair on fire on purpose</item>
+        <item>ridden an animal</item>
         <item>been trapped in an elevator</item>
-        <item>been so sun burnt I couldn’t wear a shirt</item>   
-        <item>gone hunting</item>   
-        <item>worn glasses without lenses</item>  
+        <item>been so sun burnt I couldn’t wear a shirt</item>
+        <item>gone hunting</item>
+        <item>worn glasses without lenses</item>
         <item>had a paranormal experience</item>
         <item>made money by performing on the street</item>
         <item>asked someone to repair my printer</item>
