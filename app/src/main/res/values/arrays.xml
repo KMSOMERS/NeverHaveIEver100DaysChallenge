@@ -225,7 +225,7 @@
         <item>had sex without a condom</item>
         <item>put my penis in a vacuum cleaner</item>
         <item>had a vaginal orgasm</item>
-        <item>had a an orgasm</item>
+        <item>had an anal orgasm</item>
         <item>had sex with a fat person</item>
         <item>lost something in one of my holes</item>
         <item>played strip uno</item>
@@ -279,7 +279,6 @@
         <item>struggled to find the g-spot</item>
         <item>heard my name during sex</item>
         <item>screamed during sex</item>
-        <item>slept with someone I found ugly</item>
         <item>fantasied about a three-some</item>
         <item>had sex with the twins</item>
         <item>laughed when seeing someone\'s genitals</item>
@@ -339,7 +338,16 @@
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
         <item>had sex with someone in this room</item>
-	      <item>been asked to do streaptease for money after an office party you don't recall anything from</item>    
+	<item>been asked to do streaptease for money after an office party you don't recall anything from</item>
+	<item>worn a buttplug and went out</item>
+	<item>had sex in my parents\' bed and not telling them</item>
+	<item>masturbated while my dog watched</item>
+	<item>had a foursome with three other men</item>
+	<item>used a vegetable as a sex toy</item>
+	<item>had sex with a married person</item>
+	<item>got curious and used viagra</item>
+	<item>smelled someone's used panty</item>
+   
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
         <item>dated someone older than me</item>
         <item>dated someone ten years older than me</item>
@@ -523,8 +531,8 @@
         <item>given away a secret while drunk</item>
         <item>played a drinking game</item>
         <item>been sick from drinking</item>
-	    <item>drank so much that I fell asleep while having sex</item>
-    	<item>drank on an empty stomach</item>
+	      <item>drank so much that I fell asleep while having sex</item>
+      	<item>drank on an empty stomach</item>
         <item>Drink alone</item>
         <item>Talked to anyone drunk</item>
         <item>drink whiskey like water</item>
@@ -537,7 +545,8 @@
     <string-array name="category_work_and_school">
         <item>lied on my cv</item>
         <item>shouted at a customer</item>
-	    <item>Cursed a teacher</item>
+  	    <item>Cursed a teacher</item>
+      	<item>Cursed a teacher</item>
         <item>had my boss shout at me</item>
         <item>lied to a customer</item>
         <item>tried to start a company</item>
@@ -554,7 +563,7 @@
         <item>been suspended</item>
         <item>pretended to be sick to go home</item>
         <item>insulted my teacher or boss</item>
-        <item>been late to work or shcool</item>
+        <item>been late to work or school</item>
         <item>had a crush on a classmate</item>
         <item>thrown up at work or school</item>
         <item>been mad at a customer</item>
@@ -635,12 +644,13 @@
         <item>play ball of paper</item>
         <item>skipped school because of snow</item>
         <item>jumped out of a window</item>
+	<item>pulled a 'sickie' from work</item>
     </string-array>
 
     <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>Stappled torn cloth(es) instead of stitching it</item>
+	<item>Stappled torn cloth(es) instead of stitching it</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
@@ -648,6 +658,7 @@
         <item>drank urine</item>
         <item>hung upside down from monkey bars</item>
         <item>urinated in a drink before giving it to someone</item>
+        <item>spit in a drink before giving it to someone</item>
         <item>eaten earwax</item>
         <item>been humped by a dog</item>
         <item>seen two girls one cup</item>
@@ -673,5 +684,27 @@
         <item>attracted to a cousin</item>
         <item>burnt insects alive because I was angry</item>
         <item>ate an insect because i was hungry</item>
+        <item>wet the bed as an adult</item>
+        <item>shit in my pants as an adult</item>
+        <item>rode a bus without a ticket</item>
+        <item>rode a train without a ticket</item>
+        <item>started a fire in a house</item>
+        <item>started a fire in a restaurant</item>
+        <item>set a car on fire</item>
+        <item>robbed a house</item>
+        <item>owned a gun</item>
+        <item>owned a chainsaw</item>
+        <item>hit someone with my car</item>
+        <item>set the fire alarm intentionally</item>
+        <item>walked on my parents having sex</item>
+        <item>attempted suicide</item>
+        <item>been bit by an animal</item>
+        <item>shaved my head</item>
+        <item>pierced my eyebrow</item>
+        <item>pierced my belly button</item>
+        <item>pierced my lip</item>
+        <item>been to prison</item>
+        <item>hit my boss</item>
+        <item>hit my teacher</item>
     </string-array>
 </resources>
