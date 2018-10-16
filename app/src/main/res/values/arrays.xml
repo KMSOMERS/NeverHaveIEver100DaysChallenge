@@ -348,6 +348,7 @@
         <item>had sex with a married person</item>
         <item>got curious and used viagra</item>
         <item>smelled someone's used panty</item>
+        <item>give a porn magazine to your partner</item>
 
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
         <item>dated someone older than me</item>
@@ -529,13 +530,13 @@
         <item>played a drinking game</item>
         <item>drank so much that I fell asleep while having sex</item>
         <item>drank on an empty stomach</item>
-
         <item>Talked to anyone drunk</item>
         <item>drink whiskey like water</item>
         <item>had an accident while drunk</item>
         <item>didn\'t used condom while drunk</item>
         <item>drank green fairy</item>
         <item>been drunk on a funeral</item>
+        <item>offensed estranges when you got drunk</item>
     </string-array>
 
     <string-array name="category_work_and_school">
@@ -638,7 +639,10 @@
         <item>taken picture of blackboard</item>
         <item>play ball of paper</item>
         <item>skipped school because of snow</item>
+    	<item>correct your teachers</item>
+    	<item>swapped a test with a mate</item>
         <item>jumped out of a window</item>
+        <item>smoked in class with your teacher</item>
 	    <item>pulled a 'sickie' from work</item>
     </string-array>
 
@@ -701,5 +705,8 @@
         <item>been to prison</item>
         <item>hit my boss</item>
         <item>hit my teacher</item>
+        <item>go to other gender public toilet</item>
+        <item>pretend to be blind</item>
+        <item>stolen a book from the library</item>
     </string-array>
 </resources>
