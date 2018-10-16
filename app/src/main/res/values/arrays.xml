@@ -513,7 +513,7 @@
     <string-array name="category_work_and_school">
         <item>lied on my cv</item>
         <item>shouted at a customer</item>
-	      <item>Cursed a teacher</item>
+        <item>cursed a teacher</item>
         <item>had my boss shout at me</item>
         <item>lied to a customer</item>
         <item>tried to start a company</item>
@@ -611,13 +611,13 @@
         <item>play ball of paper</item>
         <item>skipped school because of snow</item>
         <item>jumped out of a window</item>
-	<item>pulled a 'sickie' from work</item>
+	    <item>pulled a 'sickie' from work</item>
     </string-array>
 
     <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>Stappled torn cloth(es) instead of stitching it</item>
+        <item>stapled torn cloth(es) instead of stitching it</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
