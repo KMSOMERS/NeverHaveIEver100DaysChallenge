@@ -673,4 +673,34 @@
         <item>hit my boss</item>
         <item>hit my teacher</item>
     </string-array>
+
+    <string-array name="category_sports">
+        <item>joined a full-contact sport</item>
+        <item>learned how to surf</item>
+        <item>rough it in the woods</item>
+        <item>notch up a night race</item>
+        <item>compete at tribal clash</item>
+        <item>gone white-water rafting</item>
+        <item>took the bull by the horns</item>
+        <item>learned to kitesurf</item>
+        <item>ran the ragnar relay</item>
+        <item>took on ten y fan</item>
+        <item>escaped from Alcatraz</item>
+        <item>swimmed a 10k</item>
+        <item>gone heliskiing or heliboarding</item>
+        <item>race the scotland coast to coast</item>
+        <item>ice climb ben nevis in winter</item>
+        <item>cycled mont ventoux’s three ascents</item>
+        <item>cycled across your country</item>
+        <item>walked the great himalaya trail</item>
+        <item>walked the south west coast path</item>
+        <item>race the ironman 70.3 pays d’aix</item>
+        <item>ran the ultra trail du mont blanc</item>
+        <item>climbed the inaccessible pinnacle</item>
+        <item>ran a marathon and a half</item>
+        <item>walked the Pennine way</item>
+        <item>climb the matterhorn</item>
+        <item>paddle from devizes to London</item>
+        <item>walked the grande Randonnée 20</item>
+    </string-array>
 </resources>
