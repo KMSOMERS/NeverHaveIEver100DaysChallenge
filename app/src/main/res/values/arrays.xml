@@ -629,6 +629,7 @@
         <item>eaten fruit</item>
         <item>hung upside down from monkey bars</item>
         <item>urinated in a drink before giving it to someone</item>
+        <item>spit in a drink before giving it to someone</item>
         <item>eaten earwax</item>
         <item>been humped by a dog</item>
         <item>seen two girls one cup</item>
@@ -649,5 +650,27 @@
         <item>made money by performing on the street</item>
         <item>asked someone to repair my printer</item>
         <item>grew a man bun to be cool</item>
+        <item>wet the bed as an adult</item>
+        <item>shit in my pants as an adult</item>
+        <item>rode a bus without a ticket</item>
+        <item>rode a train without a ticket</item>
+        <item>started a fire in a house</item>
+        <item>started a fire in a restaurant</item>
+        <item>set a car on fire</item>
+        <item>robbed a house</item>
+        <item>owned a gun</item>
+        <item>owned a chainsaw</item>
+        <item>hit someone with my car</item>
+        <item>set the fire alarm intentionally</item>
+        <item>walked on my parents having sex</item>
+        <item>attempted suicide</item>
+        <item>been bit by an animal</item>
+        <item>shaved my head</item>
+        <item>pierced my eyebrow</item>
+        <item>pierced my belly button</item>
+        <item>pierced my lip</item>
+        <item>been to prison</item>
+        <item>hit my boss</item>
+        <item>hit my teacher</item>
     </string-array>
 </resources>
