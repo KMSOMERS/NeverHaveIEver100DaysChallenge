@@ -216,12 +216,12 @@
         <item>had sex without a condom</item>
         <item>put my penis in a vacuum cleaner</item>
         <item>had a vaginal orgasm</item>
-        <item>had an orgasm</item>
+        <item>had an anal orgasm</item>
         <item>had sex with a fat person</item>
         <item>lost something in one of my holes</item>
         <item>played strip uno</item>
         <item>played strip poker</item>
-        <item>had sex with an ex after a brake up</item>
+        <item>had sex with an ex after a break up</item>
         <item>been sexually aroused looking at myself</item>
         <item>slept with someone for revenge</item>
         <item>posted nudes of someone else online</item>
@@ -326,7 +326,16 @@
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
         <item>had sex with someone in this room</item>
-	      <item>been asked to do streaptease for money after an office party you don't recall anything from</item>    
+	<item>been asked to do streaptease for money after an office party you don't recall anything from</item>
+	<item>worn a buttplug and went out</item>
+	<item>had sex in my parents\' bed and not telling them</item>
+	<item>masturbated while my dog watched</item>
+	<item>had a foursome with three other men</item>
+	<item>used a vegetable as a sex toy</item>
+	<item>had sex with a married person</item>
+	<item>got curious and used viagra</item>
+	<item>smelled someone's used panty</item>
+   
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
         <item>dated someone older than me</item>
         <item>dated someone ten years older than me</item>
@@ -508,8 +517,8 @@
         <item>given away a secret while drunk</item>
         <item>played a drinking game</item>
         <item>been sick from drinking</item>
-	      <item>drank so much that I fell asleep while having sex</item>
-    	  <item>drank on an empty stomach</item>
+	<item>drank so much that I fell asleep while having sex</item>
+    	<item>drank on an empty stomach</item>
         <item>Drink alone</item>
         <item>Talked to anyone drunk</item>
         <item>drink whiskey like water</item>
@@ -518,7 +527,7 @@
     <string-array name="category_work_and_school">
         <item>lied on my cv</item>
         <item>shouted at a customer</item>
-	      <item>Cursed a teacher</item>
+	<item>Cursed a teacher</item>
         <item>had my boss shout at me</item>
         <item>lied to a customer</item>
         <item>tried to start a company</item>
@@ -622,7 +631,7 @@
     <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>Stappled torn cloth(es) instead of stitching it</item>
+	<item>Stappled torn cloth(es) instead of stitching it</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
