@@ -55,7 +55,7 @@
         <item>had sex before the age of 17</item>
         <item>had sex before the age of 16</item>
         <item>had sex before the age of 25</item>
-	<item>had sex after the age of 75</item>   
+	    <item>had sex after the age of 75</item>
         <item>showered with someone of the opposite sex</item>
         <item>showered with someone of the same sex</item>
         <item>had sex on a car</item>
@@ -249,6 +249,7 @@
         <item>been walked in on while having sex</item>
         <item>been interrupted while having sex</item>
         <item>slept with my boss to get a promotion</item>
+        <item>slept with my teacher to get a good grade</item>
         <item>rejected someone who wanted to have sex with me</item>
         <item>measured the length of my penis</item>
         <item>measured the length of my partner\'s penis</item>
@@ -338,16 +339,16 @@
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
         <item>had sex with someone in this room</item>
-	<item>been asked to do streaptease for money after an office party you don't recall anything from</item>
-	<item>worn a buttplug and went out</item>
-	<item>had sex in my parents\' bed and not telling them</item>
-	<item>masturbated while my dog watched</item>
-	<item>had a foursome with three other men</item>
-	<item>used a vegetable as a sex toy</item>
-	<item>had sex with a married person</item>
-	<item>got curious and used viagra</item>
-	<item>smelled someone's used panty</item>
-   
+        <item>been asked to do striptease for money after an office party you don't recall anything from</item>
+        <item>worn a buttplug and went out</item>
+        <item>had sex in my parents\' bed and not telling them</item>
+        <item>masturbated while my dog watched</item>
+        <item>had a foursome with three other men</item>
+        <item>used a vegetable as a sex toy</item>
+        <item>had sex with a married person</item>
+        <item>got curious and used viagra</item>
+        <item>smelled someone's used panty</item>
+
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
         <item>dated someone older than me</item>
         <item>dated someone ten years older than me</item>
@@ -425,11 +426,8 @@
         <item>slept with a celebrity</item>
         <item>been denied a kiss on a first date</item>
         <item>been denied a kiss</item>
-        <item>sent nudes</item>
-        <item>received nudes</item>
         <item>flirted with a person to win a bet</item>
         <item>fantasized about my friend\'s significant other</item>
-        <item>slept with my boss to get ahead, or with a teacher to get a good grade</item>
     </string-array>
 
     <string-array name="category_drinking">
@@ -522,7 +520,6 @@
         <item>used alcohol to lower my own or someone else\'s inhibitions</item>
         <item>taken a sick day from work/school due to drinking</item>
         <item>lost something while drunk</item>
-        <item>drank underage</item>
         <item>been so drunk I peed in my bed</item>
         <item>stolen alcohol from my parents</item>
         <item>drank tequila</item>
@@ -530,10 +527,9 @@
         <item>been put to bed by my friends</item>
         <item>given away a secret while drunk</item>
         <item>played a drinking game</item>
-        <item>been sick from drinking</item>
-	      <item>drank so much that I fell asleep while having sex</item>
-      	<item>drank on an empty stomach</item>
-        <item>Drink alone</item>
+        <item>drank so much that I fell asleep while having sex</item>
+        <item>drank on an empty stomach</item>
+
         <item>Talked to anyone drunk</item>
         <item>drink whiskey like water</item>
         <item>had an accident while drunk</item>
@@ -545,8 +541,7 @@
     <string-array name="category_work_and_school">
         <item>lied on my cv</item>
         <item>shouted at a customer</item>
-  	    <item>Cursed a teacher</item>
-      	<item>Cursed a teacher</item>
+        <item>cursed a teacher</item>
         <item>had my boss shout at me</item>
         <item>lied to a customer</item>
         <item>tried to start a company</item>
@@ -644,13 +639,13 @@
         <item>play ball of paper</item>
         <item>skipped school because of snow</item>
         <item>jumped out of a window</item>
-	<item>pulled a 'sickie' from work</item>
+	    <item>pulled a 'sickie' from work</item>
     </string-array>
 
     <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	<item>Stappled torn cloth(es) instead of stitching it</item>
+        <item>stapled torn cloth(es) instead of stitching it</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
