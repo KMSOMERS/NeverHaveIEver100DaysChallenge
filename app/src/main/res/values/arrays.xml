@@ -14,7 +14,7 @@
         <item>#F06292</item>
     </string-array>
 
-    <string-array name="category_sex_and_relationshps">
+    <string-array name="category_sex">
         <item>had a boyfriend</item>
         <item>had a girlfriend</item>
         <item>had sex</item>
@@ -327,7 +327,10 @@
         <item>had more than 10 sexual partners</item>
         <item>had sex with someone in this room</item>
 	      <item>been asked to do streaptease for money after an office party you don't recall anything from</item>    
+	    </string-array>
+
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
+<string-array name="category_relationships">
         <item>dated someone older than me</item>
         <item>dated someone ten years older than me</item>
         <item>dated someone younger than me</item>
