@@ -428,6 +428,7 @@
     </string-array>
 
     <string-array name="category_drinking">
+    	<item>drank to forget</item>
         <item>passed out from drinking</item>
         <item>passed out on a toilet</item>
         <item>chugged a beer in less than 10 seconds</item>
@@ -641,6 +642,8 @@
     </string-array>
 
     <string-array name="category_weird">
+    	<item>ate something picked up from the floor</item>
+        <item>put my hand on inside a toilet</item>
         <item>punched a wall</item>
         <item>juggled</item>
         <item>stapled torn cloth(es) instead of stitching it</item>
