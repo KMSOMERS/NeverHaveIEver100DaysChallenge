@@ -641,13 +641,19 @@
         <item>jumped out of a window</item>
         <item>pulled a \'sickie\' from work</item>
         <item>claimed that the homework was eaten by my dog</item>
-        <item>eaten food during a class</item>    
+        <item>eaten food during a class</item>
+        <item>intentionally bombed a test</item>
+	<item>passed a test only because you cheated on it</item>
+	<item>helped someone else cheat on a test</item>
+	<item>quit a job to spite your boss</item>
+	<item>forgotten it was a weekday and ended up missing school/work</item>
+	<item>skipped class because you disliked a teacher</item>
     </string-array>
   
         <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>stappled torn cloth(es) instead of stitching them</item>
+	<item>stappled torn cloth(es) instead of stitching them</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
@@ -704,5 +710,8 @@
         <item>been to prison</item>
         <item>hit my boss</item>
         <item>hit my teacher</item>
+	<item>lit a fart on fire</item>
+	<item>opened an occupied stall in a public bathroom</item>
+	<item>slashed someone's tire</item>
     </string-array>
 </resources>
