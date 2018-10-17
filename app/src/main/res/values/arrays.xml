@@ -337,6 +337,7 @@
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
         <item>had sex with someone in this room</item>
+	      <item>been asked to do striptease for money after an office party you don't recall anything from</item>    
         <item>been asked to do striptease for money after an office party you don't recall anything from</item>
         <item>worn a buttplug and went out</item>
         <item>had sex in my parents\' bed and not telling them</item>
@@ -525,6 +526,7 @@
         <item>given away a secret while drunk</item>
         <item>played a drinking game</item>
         <item>been sick from drinking</item>
+	      <item>drank so much that I fell asleep while having sex</item>
         <item>drank on an empty stomach</item>
         <item>Drink alone</item>
         <item>drank on an empty stomach</item>
@@ -637,13 +639,14 @@
         <item>play ball of paper</item>
         <item>skipped school because of snow</item>
         <item>jumped out of a window</item>
-	    <item>pulled a 'sickie' from work</item>
+        <item>pulled a 'sickie' from work</item>
+        <item>claimed that the homework was eaten by my dog</item>
+        <item>eaten food during a class</item>    
     </string-array>
-
-    <string-array name="category_weird">
+        <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-        <item>stapled torn cloth(es) instead of stitching it</item>
+	      <item>Stappled torn cloth(es) instead of stitching them</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
