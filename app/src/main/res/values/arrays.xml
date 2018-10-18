@@ -17,6 +17,7 @@
     <string-array name="category_sex_and_relationships">
         <item>had a boyfriend</item>
         <item>had a girlfriend</item>
+        <item>ghosted someone</item>
         <item>had sex</item>
         <item>had a threesome</item>
         <item>tried more than five sex positions</item>
@@ -168,6 +169,7 @@
         <item>taken nudes</item>
         <item>masturbated in the bath</item>
         <item>masturbated in library</item>
+        <item>had sex on a beach</item>
         <item>visited a party just to hookup</item>
         <item>spanked someone older than me</item>
         <item>slept with someone older than me</item>
@@ -348,6 +350,7 @@
         <item>got curious and used viagra</item>
         <item>smelled someone's used panty</item>
         <!--RELATIONSHIP SECTION INCASE YOU WANT TO SPLIT THIS-->
+        <item>dated someone I met online</item>
         <item>dated someone older than me</item>
         <item>dated someone younger than me</item>
         <item>advised someone to leave their partner</item>
@@ -412,7 +415,7 @@
         <item>been called just a friend</item>
         <item>tried things for my partner that I pledged I would never do</item>
         <item>had a crush on my babysitter</item>
-	      <item>confessed my crush how I feel about her</item>
+	    <item>confessed my crush how I feel about her</item>
         <item>asked for someones phone number</item>
         <item>given someone my phone number</item>
         <item>had a partner I was afraid of introducing to my parents</item>
@@ -427,6 +430,8 @@
         <item>flirted with a person to win a bet</item>
         <item>fantasized about my friend\'s significant other</item>
         <item>slept with my boss to get ahead, or with a teacher to get a good grade</item>
+        <item>dated my best friend's ex</item>
+        <item>been drunk more than three days in a row</item>
     </string-array>
 
     <string-array name="category_drinking">
@@ -653,6 +658,7 @@
     </string-array>
   
         <string-array name="category_weird">
+        <item>licked a freezing pole</item>
         <item>punched a wall</item>
         <item>juggled</item>
 	      <item>stappled torn cloth(es) instead of stitching them</item>
@@ -713,5 +719,11 @@
         <item>hit my boss</item>
         <item>hit my teacher</item>
 		<item>pretended that I was in a music video</item>
+        <item>fell asleep at the movies</item>
+        <item>got ticketed for speeding</item>
+        <item>googled my own name</item>
+        <item>sat on a copying machine</item>
+        <item>had a fake ID</item>
+        <item></item>
     </string-array>
 </resources>
