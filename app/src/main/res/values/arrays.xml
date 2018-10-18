@@ -477,6 +477,7 @@
         <item>drank alcohol off of a plate</item>
         <item>been arrested while drunk</item>
         <item>made a cocktail</item>
+		<item>taken a shot</item>
         <item>gotten lost while drunk</item>
         <item>opened a bottle with my teeth</item>
         <item>opened a bottle with my boobs</item>
@@ -641,7 +642,10 @@
         <item>jumped out of a window</item>
         <item>pulled a \'sickie\' from work</item>
         <item>claimed that the homework was eaten by my dog</item>
-        <item>eaten food during a class</item>    
+		<item>gotten straight A's</item>
+		<item>below a 3.0 GPA</item>
+        <item>eaten food during a class</item>  
+		
     </string-array>
   
         <string-array name="category_weird">
@@ -704,5 +708,6 @@
         <item>been to prison</item>
         <item>hit my boss</item>
         <item>hit my teacher</item>
+		<item>pretended that I was in a music video</item>
     </string-array>
 </resources>
