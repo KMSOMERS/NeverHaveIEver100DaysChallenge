@@ -539,6 +539,7 @@
         <item>didn\'t used condom while drunk</item>
         <item>drank green fairy</item>
         <item>been drunk on a funeral</item>
+        <item>drank a bottle of Proper No.12 Whiskey!!</item>
     </string-array>
 
     <string-array name="category_work_and_school">
@@ -649,6 +650,7 @@
 	<item>gotten straight A's</item>
 	<item>gotten below a 3.0 GPA</item>
         <item>eaten food during a class</item>  
+        <item>forged my parents signature on a school note</item>
 		
     </string-array>
   
