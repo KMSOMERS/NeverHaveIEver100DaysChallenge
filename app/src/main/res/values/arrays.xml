@@ -334,7 +334,7 @@
         <item>masturbated while lying next to my sleeping partner</item>
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
-	      <item>had sex in a closet</item>
+        <item>had sex in a closet</item>
         <item>farted while having sex</item>
         <item>rejected sex for playing video games</item>
         <item>had sex with someone in this room</item>
@@ -412,7 +412,7 @@
         <item>been called just a friend</item>
         <item>tried things for my partner that I pledged I would never do</item>
         <item>had a crush on my babysitter</item>
-	      <item>confessed my crush how I feel about her</item>
+        <item>confessed my crush how I feel about her</item>
         <item>asked for someones phone number</item>
         <item>given someone my phone number</item>
         <item>had a partner I was afraid of introducing to my parents</item>
@@ -440,7 +440,7 @@
         <item>gone home to the wrong house while drunk</item>
         <item>pretended to be drunk</item>
         <item>drank alcohol on public transport</item>
-	<item>drank alcohol to win a bet</item>
+	    <item>drank alcohol to win a bet</item>
         <item>drank any kind of spirit</item>
         <item>asked someone to buy me a drink</item>
         <item>gone home with someone because they bought me alcohol</item>
@@ -539,6 +539,7 @@
         <item>didn\'t used condom while drunk</item>
         <item>drank green fairy</item>
         <item>been drunk on a funeral</item>
+        <item>drank a bottle of Proper No.12 Whiskey!!</item>
     </string-array>
 
     <string-array name="category_work_and_school">
@@ -611,7 +612,7 @@
         <item>slept with a teacher</item>
         <item>hated a teacher or coworker</item>
         <item>begged a teacher for a better grade</item>
-	 <item>spread a rumour about my teacher</item>
+	    <item>spread a rumour about my teacher</item>
         <item>pulled an all-nighter</item>
         <item>been bullied</item>
         <item>bullied someone</item>
@@ -646,16 +647,17 @@
         <item>jumped out of a window</item>
         <item>pulled a \'sickie\' from work</item>
         <item>claimed that the homework was eaten by my dog</item>
-	<item>gotten straight A's</item>
-	<item>gotten below a 3.0 GPA</item>
+	    <item>gotten straight A's</item>
+	    <item>gotten below a 3.0 GPA</item>
         <item>eaten food during a class</item>  
+        <item>forged my parents signature on a school note</item>
 		
     </string-array>
   
         <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>stappled torn cloth(es) instead of stitching them</item>
+        <item>stappled torn cloth(es) instead of stitching them</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
