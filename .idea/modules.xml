@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NeverHaveIEver.iml" filepath="$PROJECT_DIR$/NeverHaveIEver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NeverHaveIEver100DaysChallenge.iml" filepath="$PROJECT_DIR$/NeverHaveIEver100DaysChallenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
