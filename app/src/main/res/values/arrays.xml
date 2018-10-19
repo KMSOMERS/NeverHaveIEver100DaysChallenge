@@ -648,7 +648,9 @@
         <item>claimed that the homework was eaten by my dog</item>
 	<item>gotten straight A's</item>
 	<item>gotten below a 3.0 GPA</item>
-        <item>eaten food during a class</item>  
+        <item>eaten food during a class</item>
+        <item>traveled to England</item>
+        <item>worked in another country</item>
 		
     </string-array>
   
@@ -713,5 +715,15 @@
         <item>hit my boss</item>
         <item>hit my teacher</item>
 		<item>pretended that I was in a music video</item>
+        <item>kissed a pig</item>
+        <item>kissed a dog</item>
+        <item>kissed a cat</item>
+        <item>kissed a horse</item>
+        <item>dreamed that I'm a horse</item>
+         <item>dreamed that I'm a dog</item>
+        <item>dreamed that I'm an animal</item>
+         <item>dreamed about my bed</item>
+         <item>lies in this game</item>
+         <item>said wrong name to my girlfriend/boyfriend</item>
     </string-array>
 </resources>
