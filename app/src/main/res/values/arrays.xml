@@ -21,6 +21,7 @@
         <item>had a threesome</item>
         <item>tried more than five sex positions</item>
         <item>had sex in a sauna</item>
+	 <item>had sex at work</item>
         <item>had sex with my socks on</item>
         <item>wanted to sleep with a friends parent</item>
         <item>played voyeur</item>
@@ -334,7 +335,7 @@
         <item>masturbated while lying next to my sleeping partner</item>
         <item>wanted to have sex with someone playing this game right now</item>
         <item>had more than 10 sexual partners</item>
-	      <item>had sex in a closet</item>
+	<item>had sex in a closet</item>
         <item>farted while having sex</item>
         <item>rejected sex for playing video games</item>
         <item>had sex with someone in this room</item>
@@ -412,7 +413,7 @@
         <item>been called just a friend</item>
         <item>tried things for my partner that I pledged I would never do</item>
         <item>had a crush on my babysitter</item>
-	      <item>confessed my crush how I feel about her</item>
+	<item>confessed my crush how I feel about her</item>
         <item>asked for someones phone number</item>
         <item>given someone my phone number</item>
         <item>had a partner I was afraid of introducing to my parents</item>
@@ -427,6 +428,7 @@
         <item>flirted with a person to win a bet</item>
         <item>fantasized about my friend\'s significant other</item>
         <item>slept with my boss to get ahead, or with a teacher to get a good grade</item>
+	<item>dated a coworker</item>
     </string-array>
 
     <string-array name="category_drinking">
@@ -480,7 +482,7 @@
         <item>drank alcohol off of a plate</item>
         <item>been arrested while drunk</item>
         <item>made a cocktail</item>
-		<item>taken a shot</item>
+	<item>taken a shot</item>
         <item>gotten lost while drunk</item>
         <item>opened a bottle with my teeth</item>
         <item>opened a bottle with my boobs</item>
@@ -538,7 +540,8 @@
         <item>had an accident while drunk</item>
         <item>didn\'t used condom while drunk</item>
         <item>drank green fairy</item>
-        <item>been drunk on a funeral</item>
+        <item>been drunk at a funeral</item>
+	<item>stolen glassware from a bar while drunk</item>
     </string-array>
 
     <string-array name="category_work_and_school">
@@ -611,7 +614,7 @@
         <item>slept with a teacher</item>
         <item>hated a teacher or coworker</item>
         <item>begged a teacher for a better grade</item>
-	 <item>spread a rumour about my teacher</item>
+	<item>spread a rumour about my teacher</item>
         <item>pulled an all-nighter</item>
         <item>been bullied</item>
         <item>bullied someone</item>
@@ -648,14 +651,15 @@
         <item>claimed that the homework was eaten by my dog</item>
 	<item>gotten straight A's</item>
 	<item>gotten below a 3.0 GPA</item>
-        <item>eaten food during a class</item>  
+        <item>eaten food during a class</item>
+	<item>climbed on the roof of work or school</item>
 		
     </string-array>
   
         <string-array name="category_weird">
         <item>punched a wall</item>
         <item>juggled</item>
-	      <item>stappled torn cloth(es) instead of stitching them</item>
+	<item>stappled torn cloth(es) instead of stitching them</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
         <item>been in a food fight</item>
@@ -670,7 +674,7 @@
         <item>seen two girls one cup</item>
         <item>been attracted to a family member</item>
         <item>been stuck in an elevator</item>
-        <item>lose glasses on the beach</item>
+        <item>lost glasses on the beach</item>
         <item>been attacked by a dolphin</item>
         <item>thrown up after eating nachos at a movie theater</item>
         <item>jumped from a roof</item>
@@ -712,6 +716,10 @@
         <item>been to prison</item>
         <item>hit my boss</item>
         <item>hit my teacher</item>
-		<item>pretended that I was in a music video</item>
+        <item>pretended that I was in a music video</item>
+	<item>gotten a face tattoo</item>
+	<item>stolen a street sign</item>
+	 <item>lost my keys in the ocean</item>
+	 <item>dropped my phone in the toilet</item>
     </string-array>
 </resources>
