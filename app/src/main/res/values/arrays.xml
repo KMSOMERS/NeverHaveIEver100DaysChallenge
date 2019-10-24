@@ -553,6 +553,9 @@
     </string-array>
 
     <string-array name="category_work_and_school">
+	<item>been a zoo keeper</item>
+	<item>been a programmer</item>
+	<item>taught someone</item>
         <item>lied on my cv</item>
         <item>shouted at a customer</item>
         <item>cursed a teacher</item>
