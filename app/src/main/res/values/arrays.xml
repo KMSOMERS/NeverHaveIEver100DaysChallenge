@@ -668,9 +668,12 @@
 	<item>pants'ed a kid</item>		
     </string-array>
   
-        <string-array name="category_weird">
+    <string-array name="category_weird">
+	<item>played games for over 24 hours</item>
+	<item>broken a tv screen</item>
         <item>punched a wall</item>
         <item>juggled</item>
+	 <item>thrown a controller</item>
 	<item>stappled torn cloth(es) instead of stitching them</item>
         <item>broken a mobile phone</item>	  
         <item>lost a mobile phone</item>
@@ -686,12 +689,12 @@
         <item>seen two girls one cup</item>
         <item>been attracted to a family member</item>
         <item>been stuck in an elevator</item>
-        <item>lose glasses on the beach</item>
+        <item>lost glasses on the beach</item>
         <item>been attacked by a dolphin</item>
         <item>thrown up after eating nachos at a movie theater</item>
         <item>jumped from a roof</item>
         <item>seen an alligator or crocodile in the wild</item>
-        <item>set my or someone else’s hair on fire on purpose</item>
+        <item>set mine or someone else’s hair on fire</item>
         <item>ridden an animal</item>
         <item>been trapped in an elevator</item>
         <item>been so sun burnt I couldn’t wear a shirt</item>
@@ -702,7 +705,7 @@
         <item>asked someone to repair my printer</item>
         <item>grew a man bun to be cool</item>
         <item>bought a hotel while drunk</item>
-        <item>watched porn with cousin</item>
+        <item>watched porn with a cousin</item>
         <item>attracted to a cousin</item>
         <item>burnt insects alive because I was angry</item>
         <item>ate an insect because i was hungry</item>
