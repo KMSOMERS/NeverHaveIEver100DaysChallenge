@@ -550,6 +550,7 @@
 	<item>smashed a phone while drunk</item>
 	<item>lost a phone while drunk</item>
 	<item>walked a dog drunk</item>
+        <item>dressed as a couple for Halloween</item>
     </string-array>
 
     <string-array name="category_work_and_school">
@@ -732,5 +733,6 @@
         <item>hit my boss</item>
         <item>hit my teacher</item>
 	<item>pretended that I was in a music video</item>
+        <item>dressed up for halloween</item>
     </string-array>
 </resources>
